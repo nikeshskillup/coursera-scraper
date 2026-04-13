@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Coursera Scraper Suite">
+    <test verbose="2" preserve-order="true" name="Course Ratings Test">
+        <classes>
+            <class name="testcases.IdentifyCoursesTest"/>
+        </classes>
+    </test>
+</suite>

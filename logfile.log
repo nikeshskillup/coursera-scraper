@@ -1,0 +1,1622 @@
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+Java version: 23.0.2, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", version: "14.7.1", arch: "aarch64", family: "mac"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /opt/homebrew/Cellar/maven/3.9.9/libexec/conf/settings.xml
+[DEBUG] Reading user settings from /Users/skillup279/.m2/settings.xml
+[DEBUG] Reading global toolchains from /opt/homebrew/Cellar/maven/3.9.9/libexec/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/skillup279/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/skillup279/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/skillup279/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.coursera.scraper:CourseraScraper:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.coursera.scraper:CourseraScraper:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [test]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ----------------< com.coursera.scraper:CourseraScraper >----------------
+[INFO] Building CourseraScraper 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Creating adapter using nameMapper 'gav' and factory 'rwlock-local'
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.coursera.scraper:CourseraScraper:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <annotationProcessorPathsUseDepMgmt default-value="false"/>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerArgs>
+    <arg>-Xlint:deprecation</arg>
+  </compilerArgs>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <fileExtensions default-value="class,jar"/>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <forceLegacyJavacApi default-value="false">${maven.compiler.forceLegacyJavacApi}</forceLegacyJavacApi>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}">${maven.compiler.outputDirectory}</outputDirectory>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <proc>${maven.compiler.proc}</proc>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>17</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <annotationProcessorPathsUseDepMgmt default-value="false"/>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerArgs>
+    <arg>-Xlint:deprecation</arg>
+  </compilerArgs>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac-test"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <fileExtensions default-value="class,jar"/>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <forceLegacyJavacApi default-value="false">${maven.compiler.forceLegacyJavacApi}</forceLegacyJavacApi>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <proc>${maven.compiler.proc}</proc>
+  <project default-value="${project}"/>
+  <release>17</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">${maven.compiler.target}</target>
+  <testPath default-value="${project.testClasspathElements}"/>
+  <testRelease>${maven.compiler.testRelease}</testRelease>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <useModulePath default-value="true"/>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathDependencies>${maven.test.additionalClasspathDependencies}</additionalClasspathDependencies>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <enableProcessChecker>${surefire.enableProcessChecker}</enableProcessChecker>
+  <encoding default-value="${project.reporting.outputEncoding}">${surefire.encoding}</encoding>
+  <excludeJUnit5Engines>${surefire.excludeJUnit5Engines}</excludeJUnit5Engines>
+  <excludedEnvironmentVariables>${surefire.excludedEnvironmentVariables}</excludedEnvironmentVariables>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludes>${surefire.excludes}</excludes>
+  <excludesFile>${surefire.excludesFile}</excludesFile>
+  <failIfNoSpecifiedTests default-value="true">${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests default-value="false">${failIfNoTests}</failIfNoTests>
+  <failOnFlakeCount default-value="0">${surefire.failOnFlakeCount}</failOnFlakeCount>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkNode>${surefire.forkNode}</forkNode>
+  <forkedProcessExitTimeoutInSeconds default-value="30">${surefire.exitTimeout}</forkedProcessExitTimeoutInSeconds>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includeJUnit5Engines>${surefire.includeJUnit5Engines}</includeJUnit5Engines>
+  <includes>${surefire.includes}</includes>
+  <includesFile>${surefire.includesFile}</includesFile>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <project default-value="${project}"/>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <projectBuildDirectory default-value="${project.build.directory}"/>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <runOrderRandomSeed>${surefire.runOrder.random.seed}</runOrderRandomSeed>
+  <session default-value="${session}"/>
+  <shutdown default-value="exit">${surefire.shutdown}</shutdown>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipAfterFailureCount default-value="0">${surefire.skipAfterFailureCount}</skipAfterFailureCount>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <suiteXmlFiles>
+    <suiteXmlFile>testng.xml</suiteXmlFile>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <systemPropertiesFile>${surefire.systemPropertiesFile}</systemPropertiesFile>
+  <tempDir default-value="surefire">${tempDir}</tempDir>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="false">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useModulePath default-value="true">${surefire.useModulePath}</useModulePath>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=429625, ConflictMarker.markTime=165292, ConflictMarker.nodeCount=189, ConflictIdSorter.graphTime=335583, ConflictIdSorter.topsortTime=117000, ConflictIdSorter.conflictIdCount=77, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4375500, ConflictResolver.conflictItemCount=183, DfDependencyCollector.collectTime=193763042, DfDependencyCollector.transformTime=6199291}
+[DEBUG] com.coursera.scraper:CourseraScraper:jar:1.0-SNAPSHOT
+[DEBUG]    org.seleniumhq.selenium:selenium-java:jar:4.18.1:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-api:jar:4.18.1:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-chrome-driver:jar:4.18.1:compile
+[DEBUG]          com.google.auto.service:auto-service-annotations:jar:1.1.1:compile
+[DEBUG]          org.seleniumhq.selenium:selenium-chromium-driver:jar:4.18.1:compile
+[DEBUG]          org.seleniumhq.selenium:selenium-json:jar:4.18.1:compile
+[DEBUG]          org.seleniumhq.selenium:selenium-manager:jar:4.18.1:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-devtools-v120:jar:4.18.1:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-devtools-v121:jar:4.18.1:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-devtools-v122:jar:4.18.1:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-devtools-v85:jar:4.18.1:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-edge-driver:jar:4.18.1:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-firefox-driver:jar:4.18.1:compile
+[DEBUG]          org.seleniumhq.selenium:selenium-http:jar:4.18.1:compile
+[DEBUG]             dev.failsafe:failsafe:jar:3.3.2:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-ie-driver:jar:4.18.1:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-remote-driver:jar:4.18.1:compile
+[DEBUG]          com.google.guava:guava:jar:33.0.0-jre:compile
+[DEBUG]             com.google.guava:failureaccess:jar:1.0.2:compile
+[DEBUG]             com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[DEBUG]             com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[DEBUG]             org.checkerframework:checker-qual:jar:3.41.0:compile
+[DEBUG]             com.google.j2objc:j2objc-annotations:jar:2.8:compile
+[DEBUG]          io.opentelemetry.semconv:opentelemetry-semconv:jar:1.23.1-alpha:compile
+[DEBUG]          io.opentelemetry:opentelemetry-api:jar:1.35.0:compile
+[DEBUG]          io.opentelemetry:opentelemetry-context:jar:1.35.0:compile
+[DEBUG]          io.opentelemetry:opentelemetry-exporter-logging:jar:1.35.0:compile
+[DEBUG]          io.opentelemetry:opentelemetry-sdk-common:jar:1.35.0:compile
+[DEBUG]          io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.35.0:compile
+[DEBUG]          io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:jar:1.35.0:compile
+[DEBUG]             io.opentelemetry:opentelemetry-api-events:jar:1.35.0-alpha:runtime
+[DEBUG]          io.opentelemetry:opentelemetry-sdk-trace:jar:1.35.0:compile
+[DEBUG]             io.opentelemetry:opentelemetry-extension-incubator:jar:1.35.0-alpha:runtime
+[DEBUG]          io.opentelemetry:opentelemetry-sdk:jar:1.35.0:compile
+[DEBUG]             io.opentelemetry:opentelemetry-sdk-metrics:jar:1.35.0:compile
+[DEBUG]             io.opentelemetry:opentelemetry-sdk-logs:jar:1.35.0:compile
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.14.12:compile
+[DEBUG]          org.seleniumhq.selenium:selenium-os:jar:4.18.1:compile
+[DEBUG]             org.apache.commons:commons-exec:jar:1.3:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-safari-driver:jar:4.18.1:compile
+[DEBUG]       org.seleniumhq.selenium:selenium-support:jar:4.18.1:compile
+[DEBUG]    io.github.bonigarcia:webdrivermanager:jar:5.9.2:compile
+[DEBUG]       com.google.code.gson:gson:jar:2.11.0:compile
+[DEBUG]          com.google.errorprone:error_prone_annotations:jar:2.27.0:compile
+[DEBUG]       com.github.docker-java:docker-java:jar:3.4.0:compile
+[DEBUG]          com.github.docker-java:docker-java-core:jar:3.4.0:compile
+[DEBUG]             com.github.docker-java:docker-java-api:jar:3.4.0:compile
+[DEBUG]                com.fasterxml.jackson.core:jackson-annotations:jar:2.10.3:compile
+[DEBUG]             com.fasterxml.jackson.core:jackson-databind:jar:2.10.3:compile
+[DEBUG]                com.fasterxml.jackson.core:jackson-core:jar:2.10.3:compile
+[DEBUG]          org.slf4j:jcl-over-slf4j:jar:1.7.30:compile
+[DEBUG]       com.github.docker-java:docker-java-transport-httpclient5:jar:3.4.0:compile
+[DEBUG]          com.github.docker-java:docker-java-transport:jar:3.4.0:compile
+[DEBUG]          net.java.dev.jna:jna:jar:5.13.0:compile
+[DEBUG]       org.brotli:dec:jar:0.1.2:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.15.0:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.26.2:compile
+[DEBUG]       org.apache.httpcomponents.client5:httpclient5:jar:5.2.1:compile
+[DEBUG]          org.apache.httpcomponents.core5:httpcore5:jar:5.2:compile
+[DEBUG]          org.apache.httpcomponents.core5:httpcore5-h2:jar:5.2:compile
+[DEBUG]    org.testng:testng:jar:7.9.0:test
+[DEBUG]       com.beust:jcommander:jar:1.82:test
+[DEBUG]       org.webjars:jquery:jar:3.7.1:test
+[DEBUG]    org.apache.poi:poi:jar:5.2.5:compile
+[DEBUG]       commons-codec:commons-codec:jar:1.16.0:compile
+[DEBUG]       org.apache.commons:commons-collections4:jar:4.4:compile
+[DEBUG]       org.apache.commons:commons-math3:jar:3.6.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.15.0:compile
+[DEBUG]       com.zaxxer:SparseBitSet:jar:1.3:compile
+[DEBUG]       org.apache.logging.log4j:log4j-api:jar:2.21.1:compile
+[DEBUG]    org.apache.poi:poi-ooxml:jar:5.2.5:compile
+[DEBUG]       org.apache.poi:poi-ooxml-lite:jar:5.2.5:compile
+[DEBUG]       org.apache.xmlbeans:xmlbeans:jar:5.2.0:compile
+[DEBUG]       com.github.virtuald:curvesapi:jar:1.08:compile
+[DEBUG]    org.slf4j:slf4j-api:jar:2.0.12:compile
+[DEBUG]    ch.qos.logback:logback-classic:jar:1.4.14:compile
+[DEBUG]       ch.qos.logback:logback-core:jar:1.4.14:compile
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ CourseraScraper ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=73125, ConflictMarker.markTime=27167, ConflictMarker.nodeCount=13, ConflictIdSorter.graphTime=14250, ConflictIdSorter.topsortTime=7000, ConflictIdSorter.conflictIdCount=9, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=148334, ConflictResolver.conflictItemCount=13, DfDependencyCollector.collectTime=13804792, DfDependencyCollector.transformTime=278125}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.26:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.5.1:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.3.1:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.12.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.26
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.3.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.12.0
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@18ff02e4]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources:default-resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.coursera.scraper:CourseraScraper:1.0-SNAPSHOT @ /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@59f93db8
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used:
+[DEBUG] apple.awt.application.name: Launcher
+[DEBUG] classworlds.conf: /opt/homebrew/Cellar/maven/3.9.9/libexec/bin/m2.conf
+[DEBUG] env.COLORTERM: truecolor
+[DEBUG] env.COMMAND_MODE: unix2003
+[DEBUG] env.GIT_ASKPASS: /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+[DEBUG] env.HOME: /Users/skillup279
+[DEBUG] env.HOMEBREW_CELLAR: /opt/homebrew/Cellar
+[DEBUG] env.HOMEBREW_PREFIX: /opt/homebrew
+[DEBUG] env.HOMEBREW_REPOSITORY: /opt/homebrew
+[DEBUG] env.INFOPATH: /opt/homebrew/share/info:/opt/homebrew/share/info:/opt/homebrew/share/info:
+[DEBUG] env.JAVA_HOME: /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home
+[DEBUG] env.LANG: en_US.UTF-8
+[DEBUG] env.LOGNAME: skillup279
+[DEBUG] env.MAVEN_CMD_LINE_ARGS:  test -e -X
+[DEBUG] env.MAVEN_PROJECTBASEDIR: /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy
+[DEBUG] env.MallocNanoZone: 0
+[DEBUG] env.OLDPWD: /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy
+[DEBUG] env.ORIGINAL_XDG_CURRENT_DESKTOP: undefined
+[DEBUG] env.PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/skillup279/development/flutter/bin
+[DEBUG] env.PWD: /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy
+[DEBUG] env.SDKMAN_CANDIDATES_API: https://api.sdkman.io/2
+[DEBUG] env.SDKMAN_CANDIDATES_DIR: /Users/skillup279/.sdkman/candidates
+[DEBUG] env.SDKMAN_DIR: /Users/skillup279/.sdkman
+[DEBUG] env.SDKMAN_PLATFORM: darwinarm64
+[DEBUG] env.SHELL: /bin/zsh
+[DEBUG] env.SHLVL: 1
+[DEBUG] env.SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.2POJN8OovR/Listeners
+[DEBUG] env.TERM: xterm-256color
+[DEBUG] env.TERM_PROGRAM: vscode
+[DEBUG] env.TERM_PROGRAM_VERSION: 1.98.2
+[DEBUG] env.TMPDIR: /var/folders/54/kpzxf7ws3jd2pw87qq2q9nxc0000gn/T/
+[DEBUG] env.USER: skillup279
+[DEBUG] env.USER_ZDOTDIR: /Users/skillup279
+[DEBUG] env.VSCODE_GIT_ASKPASS_EXTRA_ARGS: 
+[DEBUG] env.VSCODE_GIT_ASKPASS_MAIN: /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+[DEBUG] env.VSCODE_GIT_ASKPASS_NODE: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)
+[DEBUG] env.VSCODE_GIT_IPC_HANDLE: /var/folders/54/kpzxf7ws3jd2pw87qq2q9nxc0000gn/T/vscode-git-d3e0107fec.sock
+[DEBUG] env.VSCODE_INJECTION: 1
+[DEBUG] env.VSCODE_PROFILE_INITIALIZED: 1
+[DEBUG] env.XPC_FLAGS: 0x0
+[DEBUG] env.XPC_SERVICE_NAME: 0
+[DEBUG] env.ZDOTDIR: /Users/skillup279
+[DEBUG] env.__CFBundleIdentifier: com.microsoft.VSCode
+[DEBUG] env.__CF_USER_TEXT_ENCODING: 0x1F5:0x0:0x0
+[DEBUG] file.encoding: UTF-8
+[DEBUG] file.separator: /
+[DEBUG] ftp.nonProxyHosts: local|*.local|169.254/16|*.169.254/16
+[DEBUG] http.nonProxyHosts: local|*.local|169.254/16|*.169.254/16
+[DEBUG] java.class.path: /opt/homebrew/Cellar/maven/3.9.9/libexec/boot/plexus-classworlds-2.8.0.jar
+[DEBUG] java.class.version: 67.0
+[DEBUG] java.home: /opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home
+[DEBUG] java.io.tmpdir: /var/folders/54/kpzxf7ws3jd2pw87qq2q9nxc0000gn/T/
+[DEBUG] java.library.path: /Users/skillup279/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[DEBUG] java.runtime.name: OpenJDK Runtime Environment
+[DEBUG] java.runtime.version: 23.0.2
+[DEBUG] java.specification.name: Java Platform API Specification
+[DEBUG] java.specification.vendor: Oracle Corporation
+[DEBUG] java.specification.version: 23
+[DEBUG] java.vendor: Homebrew
+[DEBUG] java.vendor.url: https://github.com/Homebrew/homebrew-core/issues
+[DEBUG] java.vendor.url.bug: https://github.com/Homebrew/homebrew-core/issues
+[DEBUG] java.vendor.version: Homebrew
+[DEBUG] java.version: 23.0.2
+[DEBUG] java.version.date: 2025-01-21
+[DEBUG] java.vm.compressedOopsMode: Zero based
+[DEBUG] java.vm.info: mixed mode, sharing
+[DEBUG] java.vm.name: OpenJDK 64-Bit Server VM
+[DEBUG] java.vm.specification.name: Java Virtual Machine Specification
+[DEBUG] java.vm.specification.vendor: Oracle Corporation
+[DEBUG] java.vm.specification.version: 23
+[DEBUG] java.vm.vendor: Homebrew
+[DEBUG] java.vm.version: 23.0.2
+[DEBUG] jdk.debug: release
+[DEBUG] library.jansi.path: /opt/homebrew/Cellar/maven/3.9.9/libexec/lib/jansi-native
+[DEBUG] line.separator: 
+
+[DEBUG] maven.build.timestamp: 2025-03-28T08:55:30Z
+[DEBUG] maven.build.version: Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+[DEBUG] maven.compiler.release: 17
+[DEBUG] maven.conf: /opt/homebrew/Cellar/maven/3.9.9/libexec/conf
+[DEBUG] maven.home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+[DEBUG] maven.multiModuleProjectDirectory: /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy
+[DEBUG] maven.version: 3.9.9
+[DEBUG] native.encoding: UTF-8
+[DEBUG] os.arch: aarch64
+[DEBUG] os.name: Mac OS X
+[DEBUG] os.version: 14.7.1
+[DEBUG] path.separator: :
+[DEBUG] project.baseUri: file:/Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1%20copy/
+[DEBUG] project.build.sourceEncoding: UTF-8
+[DEBUG] socksNonProxyHosts: local|*.local|169.254/16|*.169.254/16
+[DEBUG] stderr.encoding: UTF-8
+[DEBUG] stdout.encoding: UTF-8
+[DEBUG] sun.arch.data.model: 64
+[DEBUG] sun.boot.library.path: /opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib
+[DEBUG] sun.cpu.endian: little
+[DEBUG] sun.io.unicode.encoding: UnicodeBig
+[DEBUG] sun.java.command: org.codehaus.plexus.classworlds.launcher.Launcher test -e -X
+[DEBUG] sun.java.launcher: SUN_STANDARD
+[DEBUG] sun.jnu.encoding: UTF-8
+[DEBUG] sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+[DEBUG] user.country: US
+[DEBUG] user.dir: /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy
+[DEBUG] user.home: /Users/skillup279
+[DEBUG] user.language: en
+[DEBUG] user.name: skillup279
+[DEBUG] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/src/main/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[DEBUG] Copying file logback.xml
+[DEBUG] file logback.xml has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'logback.xml'.
+[DEBUG] copy /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/src/main/resources/logback.xml to /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/classes/logback.xml
+[DEBUG] Copying file config.properites
+[DEBUG] file config.properites has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'config.properites'.
+[DEBUG] copy /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/src/main/resources/config.properites to /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/classes/config.properites
+[DEBUG] no user filter components
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ CourseraScraper ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=22958, ConflictMarker.markTime=13959, ConflictMarker.nodeCount=22, ConflictIdSorter.graphTime=14416, ConflictIdSorter.topsortTime=11292, ConflictIdSorter.conflictIdCount=14, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=169084, ConflictResolver.conflictItemCount=22, DfDependencyCollector.collectTime=19134000, DfDependencyCollector.transformTime=241167}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.13.0
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.4.2:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:1.2.0:compile
+[DEBUG]       org.ow2.asm:asm:jar:9.6:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.15.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.15.0:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.codehaus.plexus:plexus-xml:jar:3.0.0:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.15.0:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:4.0.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.13.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.4.2
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:1.2.0
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.6
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-xml:jar:3.0.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:4.0.0
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@18ff02e4]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile:default-compile' with basic configurator -->
+[DEBUG]   (f) annotationProcessorPathsUseDepMgmt = false
+[DEBUG]   (f) basedir = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy
+[DEBUG]   (f) buildDirectory = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target
+[DEBUG]   (f) compilePath = [/Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/classes, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar, /Users/skillup279/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar, /Users/skillup279/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar, /Users/skillup279/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar, /Users/skillup279/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar, /Users/skillup279/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, /Users/skillup279/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar, /Users/skillup279/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar, /Users/skillup279/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar, /Users/skillup279/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar, /Users/skillup279/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar, /Users/skillup279/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar, /Users/skillup279/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar, /Users/skillup279/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar, /Users/skillup279/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar, /Users/skillup279/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar, /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar, /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar, /Users/skillup279/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar, /Users/skillup279/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar, /Users/skillup279/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar, /Users/skillup279/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar, /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar, /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar, /Users/skillup279/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar, /Users/skillup279/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar, /Users/skillup279/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar, /Users/skillup279/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar, /Users/skillup279/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar, /Users/skillup279/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar, /Users/skillup279/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar, /Users/skillup279/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar, /Users/skillup279/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar, /Users/skillup279/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar, /Users/skillup279/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar, /Users/skillup279/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar, /Users/skillup279/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar, /Users/skillup279/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar, /Users/skillup279/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar, /Users/skillup279/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar, /Users/skillup279/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar, /Users/skillup279/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar, /Users/skillup279/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar, /Users/skillup279/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar, /Users/skillup279/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/src/main/java]
+[DEBUG]   (f) compilerArgs = [-Xlint:deprecation]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) createMissingPackageInfoClass = true
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) debugFileName = javac
+[DEBUG]   (f) enablePreview = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) fileExtensions = [jar, class]
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) forceLegacyJavacApi = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: com.coursera.scraper:CourseraScraper:1.0-SNAPSHOT @ /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/pom.xml
+[DEBUG]   (f) projectArtifact = com.coursera.scraper:CourseraScraper:jar:1.0-SNAPSHOT
+[DEBUG]   (s) release = 17
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@59f93db8
+[DEBUG]   (f) showCompilationChanges = false
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/generated-sources/annotations to compile source roots:
+  /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/src/main/java
+[DEBUG] New compile source roots:
+  /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/src/main/java
+  /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/generated-sources/annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ CourseraScraper ---
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@18ff02e4]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources:default-testResources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.coursera.scraper:CourseraScraper:1.0-SNAPSHOT @ /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@59f93db8
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used:
+[DEBUG] apple.awt.application.name: Launcher
+[DEBUG] classworlds.conf: /opt/homebrew/Cellar/maven/3.9.9/libexec/bin/m2.conf
+[DEBUG] env.COLORTERM: truecolor
+[DEBUG] env.COMMAND_MODE: unix2003
+[DEBUG] env.GIT_ASKPASS: /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+[DEBUG] env.HOME: /Users/skillup279
+[DEBUG] env.HOMEBREW_CELLAR: /opt/homebrew/Cellar
+[DEBUG] env.HOMEBREW_PREFIX: /opt/homebrew
+[DEBUG] env.HOMEBREW_REPOSITORY: /opt/homebrew
+[DEBUG] env.INFOPATH: /opt/homebrew/share/info:/opt/homebrew/share/info:/opt/homebrew/share/info:
+[DEBUG] env.JAVA_HOME: /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home
+[DEBUG] env.LANG: en_US.UTF-8
+[DEBUG] env.LOGNAME: skillup279
+[DEBUG] env.MAVEN_CMD_LINE_ARGS:  test -e -X
+[DEBUG] env.MAVEN_PROJECTBASEDIR: /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy
+[DEBUG] env.MallocNanoZone: 0
+[DEBUG] env.OLDPWD: /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy
+[DEBUG] env.ORIGINAL_XDG_CURRENT_DESKTOP: undefined
+[DEBUG] env.PATH: /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/skillup279/development/flutter/bin
+[DEBUG] env.PWD: /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy
+[DEBUG] env.SDKMAN_CANDIDATES_API: https://api.sdkman.io/2
+[DEBUG] env.SDKMAN_CANDIDATES_DIR: /Users/skillup279/.sdkman/candidates
+[DEBUG] env.SDKMAN_DIR: /Users/skillup279/.sdkman
+[DEBUG] env.SDKMAN_PLATFORM: darwinarm64
+[DEBUG] env.SHELL: /bin/zsh
+[DEBUG] env.SHLVL: 1
+[DEBUG] env.SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.2POJN8OovR/Listeners
+[DEBUG] env.TERM: xterm-256color
+[DEBUG] env.TERM_PROGRAM: vscode
+[DEBUG] env.TERM_PROGRAM_VERSION: 1.98.2
+[DEBUG] env.TMPDIR: /var/folders/54/kpzxf7ws3jd2pw87qq2q9nxc0000gn/T/
+[DEBUG] env.USER: skillup279
+[DEBUG] env.USER_ZDOTDIR: /Users/skillup279
+[DEBUG] env.VSCODE_GIT_ASKPASS_EXTRA_ARGS: 
+[DEBUG] env.VSCODE_GIT_ASKPASS_MAIN: /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+[DEBUG] env.VSCODE_GIT_ASKPASS_NODE: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)
+[DEBUG] env.VSCODE_GIT_IPC_HANDLE: /var/folders/54/kpzxf7ws3jd2pw87qq2q9nxc0000gn/T/vscode-git-d3e0107fec.sock
+[DEBUG] env.VSCODE_INJECTION: 1
+[DEBUG] env.VSCODE_PROFILE_INITIALIZED: 1
+[DEBUG] env.XPC_FLAGS: 0x0
+[DEBUG] env.XPC_SERVICE_NAME: 0
+[DEBUG] env.ZDOTDIR: /Users/skillup279
+[DEBUG] env.__CFBundleIdentifier: com.microsoft.VSCode
+[DEBUG] env.__CF_USER_TEXT_ENCODING: 0x1F5:0x0:0x0
+[DEBUG] file.encoding: UTF-8
+[DEBUG] file.separator: /
+[DEBUG] ftp.nonProxyHosts: local|*.local|169.254/16|*.169.254/16
+[DEBUG] http.nonProxyHosts: local|*.local|169.254/16|*.169.254/16
+[DEBUG] java.class.path: /opt/homebrew/Cellar/maven/3.9.9/libexec/boot/plexus-classworlds-2.8.0.jar
+[DEBUG] java.class.version: 67.0
+[DEBUG] java.home: /opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home
+[DEBUG] java.io.tmpdir: /var/folders/54/kpzxf7ws3jd2pw87qq2q9nxc0000gn/T/
+[DEBUG] java.library.path: /Users/skillup279/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[DEBUG] java.runtime.name: OpenJDK Runtime Environment
+[DEBUG] java.runtime.version: 23.0.2
+[DEBUG] java.specification.name: Java Platform API Specification
+[DEBUG] java.specification.vendor: Oracle Corporation
+[DEBUG] java.specification.version: 23
+[DEBUG] java.vendor: Homebrew
+[DEBUG] java.vendor.url: https://github.com/Homebrew/homebrew-core/issues
+[DEBUG] java.vendor.url.bug: https://github.com/Homebrew/homebrew-core/issues
+[DEBUG] java.vendor.version: Homebrew
+[DEBUG] java.version: 23.0.2
+[DEBUG] java.version.date: 2025-01-21
+[DEBUG] java.vm.compressedOopsMode: Zero based
+[DEBUG] java.vm.info: mixed mode, sharing
+[DEBUG] java.vm.name: OpenJDK 64-Bit Server VM
+[DEBUG] java.vm.specification.name: Java Virtual Machine Specification
+[DEBUG] java.vm.specification.vendor: Oracle Corporation
+[DEBUG] java.vm.specification.version: 23
+[DEBUG] java.vm.vendor: Homebrew
+[DEBUG] java.vm.version: 23.0.2
+[DEBUG] jdk.debug: release
+[DEBUG] library.jansi.path: /opt/homebrew/Cellar/maven/3.9.9/libexec/lib/jansi-native
+[DEBUG] line.separator: 
+
+[DEBUG] maven.build.timestamp: 2025-03-28T08:55:30Z
+[DEBUG] maven.build.version: Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+[DEBUG] maven.compiler.release: 17
+[DEBUG] maven.conf: /opt/homebrew/Cellar/maven/3.9.9/libexec/conf
+[DEBUG] maven.home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+[DEBUG] maven.multiModuleProjectDirectory: /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy
+[DEBUG] maven.version: 3.9.9
+[DEBUG] native.encoding: UTF-8
+[DEBUG] os.arch: aarch64
+[DEBUG] os.name: Mac OS X
+[DEBUG] os.version: 14.7.1
+[DEBUG] path.separator: :
+[DEBUG] project.baseUri: file:/Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1%20copy/
+[DEBUG] project.build.sourceEncoding: UTF-8
+[DEBUG] socksNonProxyHosts: local|*.local|169.254/16|*.169.254/16
+[DEBUG] stderr.encoding: UTF-8
+[DEBUG] stdout.encoding: UTF-8
+[DEBUG] sun.arch.data.model: 64
+[DEBUG] sun.boot.library.path: /opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib
+[DEBUG] sun.cpu.endian: little
+[DEBUG] sun.io.unicode.encoding: UnicodeBig
+[DEBUG] sun.java.command: org.codehaus.plexus.classworlds.launcher.Launcher test -e -X
+[DEBUG] sun.java.launcher: SUN_STANDARD
+[DEBUG] sun.jnu.encoding: UTF-8
+[DEBUG] sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+[DEBUG] user.country: US
+[DEBUG] user.dir: /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy
+[DEBUG] user.home: /Users/skillup279
+[DEBUG] user.language: en
+[DEBUG] user.name: skillup279
+[DEBUG] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/src/test/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/src/test/resources
+[DEBUG] no user filter components
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ CourseraScraper ---
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@18ff02e4]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile:default-testCompile' with basic configurator -->
+[DEBUG]   (f) annotationProcessorPathsUseDepMgmt = false
+[DEBUG]   (f) basedir = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy
+[DEBUG]   (f) buildDirectory = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target
+[DEBUG]   (f) compileSourceRoots = [/Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/src/test/java]
+[DEBUG]   (f) compilerArgs = [-Xlint:deprecation]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) createMissingPackageInfoClass = true
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) debugFileName = javac-test
+[DEBUG]   (f) enablePreview = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) fileExtensions = [jar, class]
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) forceLegacyJavacApi = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/generated-test-sources/test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/test-classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: com.coursera.scraper:CourseraScraper:1.0-SNAPSHOT @ /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/pom.xml
+[DEBUG]   (s) release = 17
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@59f93db8
+[DEBUG]   (f) showCompilationChanges = false
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 1.8
+[DEBUG]   (f) testPath = [/Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/test-classes, /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/classes, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar, /Users/skillup279/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar, /Users/skillup279/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar, /Users/skillup279/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar, /Users/skillup279/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar, /Users/skillup279/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, /Users/skillup279/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar, /Users/skillup279/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar, /Users/skillup279/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar, /Users/skillup279/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar, /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar, /Users/skillup279/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar, /Users/skillup279/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar, /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar, /Users/skillup279/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar, /Users/skillup279/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar, /Users/skillup279/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar, /Users/skillup279/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar, /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar, /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar, /Users/skillup279/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar, /Users/skillup279/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar, /Users/skillup279/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar, /Users/skillup279/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar, /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar, /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar, /Users/skillup279/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar, /Users/skillup279/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar, /Users/skillup279/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar, /Users/skillup279/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar, /Users/skillup279/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar, /Users/skillup279/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar, /Users/skillup279/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar, /Users/skillup279/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar, /Users/skillup279/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar, /Users/skillup279/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar, /Users/skillup279/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar, /Users/skillup279/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar, /Users/skillup279/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar, /Users/skillup279/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar, /Users/skillup279/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar, /Users/skillup279/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar, /Users/skillup279/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar, /Users/skillup279/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar, /Users/skillup279/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar, /Users/skillup279/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar, /Users/skillup279/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar, /Users/skillup279/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar, /Users/skillup279/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar, /Users/skillup279/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar]
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) useModulePath = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/generated-test-sources/test-annotations to test-compile source roots:
+  /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/src/test/java
+[DEBUG] New test-compile source roots:
+  /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/src/test/java
+  /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/generated-test-sources/test-annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ CourseraScraper ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for jboss-public-repository-group (http://repository.jboss.org/nexus/content/groups/public).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=61000, ConflictMarker.markTime=35000, ConflictMarker.nodeCount=78, ConflictIdSorter.graphTime=67917, ConflictIdSorter.topsortTime=23500, ConflictIdSorter.conflictIdCount=39, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=613167, ConflictResolver.conflictItemCount=76, DfDependencyCollector.collectTime=56598166, DfDependencyCollector.transformTime=816250}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:3.2.5
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:3.2.5:compile
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:3.2.5:compile
+[DEBUG]          org.apache.maven.surefire:surefire-logger-api:jar:3.2.5:compile
+[DEBUG]       org.apache.maven.surefire:surefire-extensions-api:jar:3.2.5:compile
+[DEBUG]       org.apache.maven.surefire:surefire-booter:jar:3.2.5:compile
+[DEBUG]          org.apache.maven.surefire:surefire-extensions-spi:jar:3.2.5:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:1.0.0.v20140518:compile
+[DEBUG]          org.eclipse.aether:aether-api:jar:1.0.0.v20140518:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1:compile (version managed from default) (exclusions managed from default)
+[DEBUG]          org.apache.maven:maven-artifact:jar:3.2.5:provided (scope managed from default) (version managed from default)
+[DEBUG]             org.codehaus.plexus:plexus-utils:jar:4.0.0:provided (version managed from default)
+[DEBUG]          org.apache.maven:maven-core:jar:3.2.5:provided (scope managed from default) (version managed from default)
+[DEBUG]             org.apache.maven:maven-settings:jar:3.2.5:provided (version managed from default)
+[DEBUG]             org.apache.maven:maven-settings-builder:jar:3.2.5:provided
+[DEBUG]             org.apache.maven:maven-repository-metadata:jar:3.2.5:provided
+[DEBUG]             org.apache.maven:maven-model-builder:jar:3.2.5:provided
+[DEBUG]             org.apache.maven:maven-aether-provider:jar:3.2.5:provided
+[DEBUG]                org.eclipse.aether:aether-spi:jar:1.0.0.v20140518:provided
+[DEBUG]             org.eclipse.aether:aether-impl:jar:1.0.0.v20140518:provided
+[DEBUG]             org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.9.0.M2:provided (version managed from default)
+[DEBUG]                javax.annotation:javax.annotation-api:jar:1.2:provided
+[DEBUG]                javax.enterprise:cdi-api:jar:1.2:provided
+[DEBUG]                org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.9.0.M2:provided (version managed from default)
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:no_aop:3.2.3:provided
+[DEBUG]                javax.inject:javax.inject:jar:1:provided
+[DEBUG]                aopalliance:aopalliance:jar:1.0:provided
+[DEBUG]                com.google.guava:guava:jar:16.0.1:provided
+[DEBUG]             org.codehaus.plexus:plexus-interpolation:jar:1.21:provided
+[DEBUG]             org.codehaus.plexus:plexus-classworlds:jar:2.5.2:provided
+[DEBUG]             org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:provided
+[DEBUG]             org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:provided
+[DEBUG]                org.sonatype.plexus:plexus-cipher:jar:1.4:provided
+[DEBUG]          org.apache.maven:maven-plugin-api:jar:3.2.5:provided (scope managed from default) (version managed from default)
+[DEBUG]          commons-io:commons-io:jar:2.15.1:compile (version managed from default)
+[DEBUG]       org.codehaus.plexus:plexus-java:jar:1.2.0:compile (version managed from default)
+[DEBUG]          org.ow2.asm:asm:jar:9.6:compile
+[DEBUG]          com.thoughtworks.qdox:qdox:jar:2.0.3:compile
+[DEBUG]       org.apache.maven.surefire:surefire-shared-utils:jar:3.2.5:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:3.2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:3.2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:3.2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-logger-api:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-extensions-api:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-extensions-spi:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.15.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:1.2.0
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.6
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0.3
+[DEBUG]   Included: org.apache.maven.surefire:surefire-shared-utils:jar:3.2.5
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:3.2.5, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@18ff02e4]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test:default-test' with basic configurator -->
+[DEBUG]   (f) additionalClasspathDependencies = []
+[DEBUG]   (s) additionalClasspathElements = []
+[DEBUG]   (s) basedir = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (f) classesDirectory = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/classes
+[DEBUG]   (s) classpathDependencyExcludes = []
+[DEBUG]   (s) dependenciesToScan = []
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (s) excludeJUnit5Engines = []
+[DEBUG]   (f) excludedEnvironmentVariables = []
+[DEBUG]   (s) excludes = []
+[DEBUG]   (s) failIfNoSpecifiedTests = true
+[DEBUG]   (s) failIfNoTests = false
+[DEBUG]   (s) failOnFlakeCount = 0
+[DEBUG]   (f) forkCount = 1
+[DEBUG]   (s) forkedProcessExitTimeoutInSeconds = 30
+[DEBUG]   (s) includeJUnit5Engines = []
+[DEBUG]   (s) includes = []
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) parallelOptimized = true
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:3.2.5:, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:3.2.5:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:3.2.5:compile, org.apache.maven.surefire:surefire-logger-api=org.apache.maven.surefire:surefire-logger-api:jar:3.2.5:compile, org.apache.maven.surefire:surefire-extensions-api=org.apache.maven.surefire:surefire-extensions-api:jar:3.2.5:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:3.2.5:compile, org.apache.maven.surefire:surefire-extensions-spi=org.apache.maven.surefire:surefire-extensions-spi:jar:3.2.5:compile, org.eclipse.aether:aether-util=org.eclipse.aether:aether-util:jar:1.0.0.v20140518:compile, org.eclipse.aether:aether-api=org.eclipse.aether:aether-api:jar:1.0.0.v20140518:compile, org.apache.maven.shared:maven-common-artifact-filters=org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1:compile, commons-io:commons-io=commons-io:commons-io:jar:2.15.1:compile, org.codehaus.plexus:plexus-java=org.codehaus.plexus:plexus-java:jar:1.2.0:compile, org.ow2.asm:asm=org.ow2.asm:asm:jar:9.6:compile, com.thoughtworks.qdox:qdox=com.thoughtworks.qdox:qdox:jar:2.0.3:compile, org.apache.maven.surefire:surefire-shared-utils=org.apache.maven.surefire:surefire-shared-utils:jar:3.2.5:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugins.maven_surefire_plugin.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:3.2.5:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) project = MavenProject: com.coursera.scraper:CourseraScraper:1.0-SNAPSHOT @ /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/pom.xml
+[DEBUG]   (s) projectArtifactMap = {org.seleniumhq.selenium:selenium-java=org.seleniumhq.selenium:selenium-java:jar:4.18.1:compile, org.seleniumhq.selenium:selenium-api=org.seleniumhq.selenium:selenium-api:jar:4.18.1:compile, org.seleniumhq.selenium:selenium-chrome-driver=org.seleniumhq.selenium:selenium-chrome-driver:jar:4.18.1:compile, com.google.auto.service:auto-service-annotations=com.google.auto.service:auto-service-annotations:jar:1.1.1:compile, org.seleniumhq.selenium:selenium-chromium-driver=org.seleniumhq.selenium:selenium-chromium-driver:jar:4.18.1:compile, org.seleniumhq.selenium:selenium-json=org.seleniumhq.selenium:selenium-json:jar:4.18.1:compile, org.seleniumhq.selenium:selenium-manager=org.seleniumhq.selenium:selenium-manager:jar:4.18.1:compile, org.seleniumhq.selenium:selenium-devtools-v120=org.seleniumhq.selenium:selenium-devtools-v120:jar:4.18.1:compile, org.seleniumhq.selenium:selenium-devtools-v121=org.seleniumhq.selenium:selenium-devtools-v121:jar:4.18.1:compile, org.seleniumhq.selenium:selenium-devtools-v122=org.seleniumhq.selenium:selenium-devtools-v122:jar:4.18.1:compile, org.seleniumhq.selenium:selenium-devtools-v85=org.seleniumhq.selenium:selenium-devtools-v85:jar:4.18.1:compile, org.seleniumhq.selenium:selenium-edge-driver=org.seleniumhq.selenium:selenium-edge-driver:jar:4.18.1:compile, org.seleniumhq.selenium:selenium-firefox-driver=org.seleniumhq.selenium:selenium-firefox-driver:jar:4.18.1:compile, org.seleniumhq.selenium:selenium-http=org.seleniumhq.selenium:selenium-http:jar:4.18.1:compile, dev.failsafe:failsafe=dev.failsafe:failsafe:jar:3.3.2:compile, org.seleniumhq.selenium:selenium-ie-driver=org.seleniumhq.selenium:selenium-ie-driver:jar:4.18.1:compile, org.seleniumhq.selenium:selenium-remote-driver=org.seleniumhq.selenium:selenium-remote-driver:jar:4.18.1:compile, com.google.guava:guava=com.google.guava:guava:jar:33.0.0-jre:compile, com.google.guava:failureaccess=com.google.guava:failureaccess:jar:1.0.2:compile, com.google.guava:listenablefuture=com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile, com.google.code.findbugs:jsr305=com.google.code.findbugs:jsr305:jar:3.0.2:compile, org.checkerframework:checker-qual=org.checkerframework:checker-qual:jar:3.41.0:compile, com.google.j2objc:j2objc-annotations=com.google.j2objc:j2objc-annotations:jar:2.8:compile, io.opentelemetry.semconv:opentelemetry-semconv=io.opentelemetry.semconv:opentelemetry-semconv:jar:1.23.1-alpha:compile, io.opentelemetry:opentelemetry-api=io.opentelemetry:opentelemetry-api:jar:1.35.0:compile, io.opentelemetry:opentelemetry-context=io.opentelemetry:opentelemetry-context:jar:1.35.0:compile, io.opentelemetry:opentelemetry-exporter-logging=io.opentelemetry:opentelemetry-exporter-logging:jar:1.35.0:compile, io.opentelemetry:opentelemetry-sdk-common=io.opentelemetry:opentelemetry-sdk-common:jar:1.35.0:compile, io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi=io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.35.0:compile, io.opentelemetry:opentelemetry-sdk-extension-autoconfigure=io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:jar:1.35.0:compile, io.opentelemetry:opentelemetry-api-events=io.opentelemetry:opentelemetry-api-events:jar:1.35.0-alpha:runtime, io.opentelemetry:opentelemetry-sdk-trace=io.opentelemetry:opentelemetry-sdk-trace:jar:1.35.0:compile, io.opentelemetry:opentelemetry-extension-incubator=io.opentelemetry:opentelemetry-extension-incubator:jar:1.35.0-alpha:runtime, io.opentelemetry:opentelemetry-sdk=io.opentelemetry:opentelemetry-sdk:jar:1.35.0:compile, io.opentelemetry:opentelemetry-sdk-metrics=io.opentelemetry:opentelemetry-sdk-metrics:jar:1.35.0:compile, io.opentelemetry:opentelemetry-sdk-logs=io.opentelemetry:opentelemetry-sdk-logs:jar:1.35.0:compile, net.bytebuddy:byte-buddy=net.bytebuddy:byte-buddy:jar:1.14.12:compile, org.seleniumhq.selenium:selenium-os=org.seleniumhq.selenium:selenium-os:jar:4.18.1:compile, org.apache.commons:commons-exec=org.apache.commons:commons-exec:jar:1.3:compile, org.seleniumhq.selenium:selenium-safari-driver=org.seleniumhq.selenium:selenium-safari-driver:jar:4.18.1:compile, org.seleniumhq.selenium:selenium-support=org.seleniumhq.selenium:selenium-support:jar:4.18.1:compile, io.github.bonigarcia:webdrivermanager=io.github.bonigarcia:webdrivermanager:jar:5.9.2:compile, com.google.code.gson:gson=com.google.code.gson:gson:jar:2.11.0:compile, com.google.errorprone:error_prone_annotations=com.google.errorprone:error_prone_annotations:jar:2.27.0:compile, com.github.docker-java:docker-java=com.github.docker-java:docker-java:jar:3.4.0:compile, com.github.docker-java:docker-java-core=com.github.docker-java:docker-java-core:jar:3.4.0:compile, com.github.docker-java:docker-java-api=com.github.docker-java:docker-java-api:jar:3.4.0:compile, com.fasterxml.jackson.core:jackson-annotations=com.fasterxml.jackson.core:jackson-annotations:jar:2.10.3:compile, com.fasterxml.jackson.core:jackson-databind=com.fasterxml.jackson.core:jackson-databind:jar:2.10.3:compile, com.fasterxml.jackson.core:jackson-core=com.fasterxml.jackson.core:jackson-core:jar:2.10.3:compile, org.slf4j:jcl-over-slf4j=org.slf4j:jcl-over-slf4j:jar:1.7.30:compile, com.github.docker-java:docker-java-transport-httpclient5=com.github.docker-java:docker-java-transport-httpclient5:jar:3.4.0:compile, com.github.docker-java:docker-java-transport=com.github.docker-java:docker-java-transport:jar:3.4.0:compile, net.java.dev.jna:jna=net.java.dev.jna:jna:jar:5.13.0:compile, org.brotli:dec=org.brotli:dec:jar:0.1.2:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.15.0:compile, org.apache.commons:commons-compress=org.apache.commons:commons-compress:jar:1.26.2:compile, org.apache.httpcomponents.client5:httpclient5=org.apache.httpcomponents.client5:httpclient5:jar:5.2.1:compile, org.apache.httpcomponents.core5:httpcore5=org.apache.httpcomponents.core5:httpcore5:jar:5.2:compile, org.apache.httpcomponents.core5:httpcore5-h2=org.apache.httpcomponents.core5:httpcore5-h2:jar:5.2:compile, org.testng:testng=org.testng:testng:jar:7.9.0:test, com.beust:jcommander=com.beust:jcommander:jar:1.82:test, org.webjars:jquery=org.webjars:jquery:jar:3.7.1:test, org.apache.poi:poi=org.apache.poi:poi:jar:5.2.5:compile, commons-codec:commons-codec=commons-codec:commons-codec:jar:1.16.0:compile, org.apache.commons:commons-collections4=org.apache.commons:commons-collections4:jar:4.4:compile, org.apache.commons:commons-math3=org.apache.commons:commons-math3:jar:3.6.1:compile, commons-io:commons-io=commons-io:commons-io:jar:2.15.0:compile, com.zaxxer:SparseBitSet=com.zaxxer:SparseBitSet:jar:1.3:compile, org.apache.logging.log4j:log4j-api=org.apache.logging.log4j:log4j-api:jar:2.21.1:compile, org.apache.poi:poi-ooxml=org.apache.poi:poi-ooxml:jar:5.2.5:compile, org.apache.poi:poi-ooxml-lite=org.apache.poi:poi-ooxml-lite:jar:5.2.5:compile, org.apache.xmlbeans:xmlbeans=org.apache.xmlbeans:xmlbeans:jar:5.2.0:compile, com.github.virtuald:curvesapi=com.github.virtuald:curvesapi:jar:1.08:compile, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:2.0.12:compile, ch.qos.logback:logback-classic=ch.qos.logback:logback-classic:jar:1.4.14:compile, ch.qos.logback:logback-core=ch.qos.logback:logback-core:jar:1.4.14:compile}
+[DEBUG]   (s) projectBuildDirectory = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/surefire-reports
+[DEBUG]   (f) rerunFailingTestsCount = 0
+[DEBUG]   (f) reuseForks = true
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@59f93db8
+[DEBUG]   (f) shutdown = exit
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) skipAfterFailureCount = 0
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) suiteXmlFiles = [/Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/testng.xml]
+[DEBUG]   (s) tempDir = surefire
+[DEBUG]   (s) testClassesDirectory = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/src/test/java
+[DEBUG]   (s) threadCountClasses = 0
+[DEBUG]   (s) threadCountMethods = 0
+[DEBUG]   (s) threadCountSuites = 0
+[DEBUG]   (s) trimStackTrace = false
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (f) useModulePath = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy
+[DEBUG] -- end configuration --
+[DEBUG] Using JVM: /opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/bin/java with Java version 23.0
+[DEBUG] Resolved included and excluded patterns: **/Test*.java, **/*Test.java, **/*Tests.java, **/*TestCase.java, !**/*$*
+[DEBUG] Surefire report directory: /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/surefire-reports
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[DEBUG] Using the provider org.apache.maven.surefire.testng.TestNGProvider
+[DEBUG] Setting system property [basedir]=[/Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy]
+[DEBUG] Setting system property [localRepository]=[/Users/skillup279/.m2/repository]
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=28000, ConflictMarker.markTime=11417, ConflictMarker.nodeCount=7, ConflictIdSorter.graphTime=35458, ConflictIdSorter.topsortTime=6250, ConflictIdSorter.conflictIdCount=5, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=61292, ConflictResolver.conflictItemCount=6, DfDependencyCollector.collectTime=1746084, DfDependencyCollector.transformTime=152291}
+[DEBUG] Found implementation of fork node factory: org.apache.maven.plugin.surefire.extensions.LegacyForkNodeFactory
+[DEBUG] Using fork starter with configuration implementation org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=7708, ConflictMarker.markTime=9667, ConflictMarker.nodeCount=11, ConflictIdSorter.graphTime=7334, ConflictIdSorter.topsortTime=5500, ConflictIdSorter.conflictIdCount=7, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=63250, ConflictResolver.conflictItemCount=10, DfDependencyCollector.collectTime=5672042, DfDependencyCollector.transformTime=105125}
+[DEBUG] test classpath:  /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/test-classes  /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/classes  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar  /Users/skillup279/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar  /Users/skillup279/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar  /Users/skillup279/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar  /Users/skillup279/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar  /Users/skillup279/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar  /Users/skillup279/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar  /Users/skillup279/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar  /Users/skillup279/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar  /Users/skillup279/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar  /Users/skillup279/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar  /Users/skillup279/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar  /Users/skillup279/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar  /Users/skillup279/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar  /Users/skillup279/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar  /Users/skillup279/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar  /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar  /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar  /Users/skillup279/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar  /Users/skillup279/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar  /Users/skillup279/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar  /Users/skillup279/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar  /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar  /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar  /Users/skillup279/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar  /Users/skillup279/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar  /Users/skillup279/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar  /Users/skillup279/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar  /Users/skillup279/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar  /Users/skillup279/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar  /Users/skillup279/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar  /Users/skillup279/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar  /Users/skillup279/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar  /Users/skillup279/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar  /Users/skillup279/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar  /Users/skillup279/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar  /Users/skillup279/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar  /Users/skillup279/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar  /Users/skillup279/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar  /Users/skillup279/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar  /Users/skillup279/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar  /Users/skillup279/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar  /Users/skillup279/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar  /Users/skillup279/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar  /Users/skillup279/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar  /Users/skillup279/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar  /Users/skillup279/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar  /Users/skillup279/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar
+[DEBUG] provider classpath:  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-testng/3.2.5/surefire-testng-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-api/3.2.5/surefire-api-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/common-java5/3.2.5/common-java5-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/3.2.5/surefire-testng-utils-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-grouper/3.2.5/surefire-grouper-3.2.5.jar
+[DEBUG] test(compact) classpath:  test-classes  classes  selenium-java-4.18.1.jar  selenium-api-4.18.1.jar  selenium-chrome-driver-4.18.1.jar  auto-service-annotations-1.1.1.jar  selenium-chromium-driver-4.18.1.jar  selenium-json-4.18.1.jar  selenium-manager-4.18.1.jar  selenium-devtools-v120-4.18.1.jar  selenium-devtools-v121-4.18.1.jar  selenium-devtools-v122-4.18.1.jar  selenium-devtools-v85-4.18.1.jar  selenium-edge-driver-4.18.1.jar  selenium-firefox-driver-4.18.1.jar  selenium-http-4.18.1.jar  failsafe-3.3.2.jar  selenium-ie-driver-4.18.1.jar  selenium-remote-driver-4.18.1.jar  guava-33.0.0-jre.jar  failureaccess-1.0.2.jar  listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar  jsr305-3.0.2.jar  checker-qual-3.41.0.jar  j2objc-annotations-2.8.jar  opentelemetry-semconv-1.23.1-alpha.jar  opentelemetry-api-1.35.0.jar  opentelemetry-context-1.35.0.jar  opentelemetry-exporter-logging-1.35.0.jar  opentelemetry-sdk-common-1.35.0.jar  opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar  opentelemetry-sdk-extension-autoconfigure-1.35.0.jar  opentelemetry-api-events-1.35.0-alpha.jar  opentelemetry-sdk-trace-1.35.0.jar  opentelemetry-extension-incubator-1.35.0-alpha.jar  opentelemetry-sdk-1.35.0.jar  opentelemetry-sdk-metrics-1.35.0.jar  opentelemetry-sdk-logs-1.35.0.jar  byte-buddy-1.14.12.jar  selenium-os-4.18.1.jar  commons-exec-1.3.jar  selenium-safari-driver-4.18.1.jar  selenium-support-4.18.1.jar  webdrivermanager-5.9.2.jar  gson-2.11.0.jar  error_prone_annotations-2.27.0.jar  docker-java-3.4.0.jar  docker-java-core-3.4.0.jar  docker-java-api-3.4.0.jar  jackson-annotations-2.10.3.jar  jackson-databind-2.10.3.jar  jackson-core-2.10.3.jar  jcl-over-slf4j-1.7.30.jar  docker-java-transport-httpclient5-3.4.0.jar  docker-java-transport-3.4.0.jar  jna-5.13.0.jar  dec-0.1.2.jar  commons-lang3-3.15.0.jar  commons-compress-1.26.2.jar  httpclient5-5.2.1.jar  httpcore5-5.2.jar  httpcore5-h2-5.2.jar  testng-7.9.0.jar  jcommander-1.82.jar  jquery-3.7.1.jar  poi-5.2.5.jar  commons-codec-1.16.0.jar  commons-collections4-4.4.jar  commons-math3-3.6.1.jar  commons-io-2.15.0.jar  SparseBitSet-1.3.jar  log4j-api-2.21.1.jar  poi-ooxml-5.2.5.jar  poi-ooxml-lite-5.2.5.jar  xmlbeans-5.2.0.jar  curvesapi-1.08.jar  slf4j-api-2.0.12.jar  logback-classic-1.4.14.jar  logback-core-1.4.14.jar
+[DEBUG] provider(compact) classpath:  surefire-testng-3.2.5.jar  surefire-api-3.2.5.jar  surefire-logger-api-3.2.5.jar  surefire-shared-utils-3.2.5.jar  common-java5-3.2.5.jar  surefire-testng-utils-3.2.5.jar  surefire-grouper-3.2.5.jar
+[DEBUG] in-process classpath:  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-testng/3.2.5/surefire-testng-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-api/3.2.5/surefire-api-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/common-java5/3.2.5/common-java5-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/3.2.5/surefire-testng-utils-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-grouper/3.2.5/surefire-grouper-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.2.5/maven-surefire-common-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-booter/3.2.5/surefire-booter-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.2.5/surefire-extensions-api-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.2.5/surefire-extensions-spi-3.2.5.jar
+[DEBUG] in-process(compact) classpath:  surefire-testng-3.2.5.jar  surefire-api-3.2.5.jar  surefire-logger-api-3.2.5.jar  surefire-shared-utils-3.2.5.jar  common-java5-3.2.5.jar  surefire-testng-utils-3.2.5.jar  surefire-grouper-3.2.5.jar  maven-surefire-common-3.2.5.jar  surefire-booter-3.2.5.jar  surefire-extensions-api-3.2.5.jar  surefire-extensions-spi-3.2.5.jar
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[DEBUG] Determined Maven Process ID 8803
+[DEBUG] Fork Channel [1] connection string 'pipe://1' for the implementation class org.apache.maven.plugin.surefire.extensions.LegacyForkChannel
+[DEBUG] boot classpath:  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-booter/3.2.5/surefire-booter-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-api/3.2.5/surefire-api-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.2.5/surefire-extensions-spi-3.2.5.jar  /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/test-classes  /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/classes  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar  /Users/skillup279/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar  /Users/skillup279/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar  /Users/skillup279/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar  /Users/skillup279/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar  /Users/skillup279/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar  /Users/skillup279/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar  /Users/skillup279/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar  /Users/skillup279/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar  /Users/skillup279/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar  /Users/skillup279/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar  /Users/skillup279/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar  /Users/skillup279/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar  /Users/skillup279/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar  /Users/skillup279/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar  /Users/skillup279/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar  /Users/skillup279/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar  /Users/skillup279/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar  /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar  /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar  /Users/skillup279/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar  /Users/skillup279/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar  /Users/skillup279/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar  /Users/skillup279/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar  /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar  /Users/skillup279/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar  /Users/skillup279/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar  /Users/skillup279/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar  /Users/skillup279/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar  /Users/skillup279/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar  /Users/skillup279/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar  /Users/skillup279/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar  /Users/skillup279/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar  /Users/skillup279/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar  /Users/skillup279/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar  /Users/skillup279/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar  /Users/skillup279/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar  /Users/skillup279/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar  /Users/skillup279/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar  /Users/skillup279/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar  /Users/skillup279/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar  /Users/skillup279/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar  /Users/skillup279/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar  /Users/skillup279/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar  /Users/skillup279/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar  /Users/skillup279/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar  /Users/skillup279/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar  /Users/skillup279/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar  /Users/skillup279/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar  /Users/skillup279/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-testng/3.2.5/surefire-testng-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/common-java5/3.2.5/common-java5-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/3.2.5/surefire-testng-utils-3.2.5.jar  /Users/skillup279/.m2/repository/org/apache/maven/surefire/surefire-grouper/3.2.5/surefire-grouper-3.2.5.jar
+[DEBUG] boot(compact) classpath:  surefire-booter-3.2.5.jar  surefire-api-3.2.5.jar  surefire-logger-api-3.2.5.jar  surefire-shared-utils-3.2.5.jar  surefire-extensions-spi-3.2.5.jar  test-classes  classes  selenium-java-4.18.1.jar  selenium-api-4.18.1.jar  selenium-chrome-driver-4.18.1.jar  auto-service-annotations-1.1.1.jar  selenium-chromium-driver-4.18.1.jar  selenium-json-4.18.1.jar  selenium-manager-4.18.1.jar  selenium-devtools-v120-4.18.1.jar  selenium-devtools-v121-4.18.1.jar  selenium-devtools-v122-4.18.1.jar  selenium-devtools-v85-4.18.1.jar  selenium-edge-driver-4.18.1.jar  selenium-firefox-driver-4.18.1.jar  selenium-http-4.18.1.jar  failsafe-3.3.2.jar  selenium-ie-driver-4.18.1.jar  selenium-remote-driver-4.18.1.jar  guava-33.0.0-jre.jar  failureaccess-1.0.2.jar  listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar  jsr305-3.0.2.jar  checker-qual-3.41.0.jar  j2objc-annotations-2.8.jar  opentelemetry-semconv-1.23.1-alpha.jar  opentelemetry-api-1.35.0.jar  opentelemetry-context-1.35.0.jar  opentelemetry-exporter-logging-1.35.0.jar  opentelemetry-sdk-common-1.35.0.jar  opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar  opentelemetry-sdk-extension-autoconfigure-1.35.0.jar  opentelemetry-api-events-1.35.0-alpha.jar  opentelemetry-sdk-trace-1.35.0.jar  opentelemetry-extension-incubator-1.35.0-alpha.jar  opentelemetry-sdk-1.35.0.jar  opentelemetry-sdk-metrics-1.35.0.jar  opentelemetry-sdk-logs-1.35.0.jar  byte-buddy-1.14.12.jar  selenium-os-4.18.1.jar  commons-exec-1.3.jar  selenium-safari-driver-4.18.1.jar  selenium-support-4.18.1.jar  webdrivermanager-5.9.2.jar  gson-2.11.0.jar  error_prone_annotations-2.27.0.jar  docker-java-3.4.0.jar  docker-java-core-3.4.0.jar  docker-java-api-3.4.0.jar  jackson-annotations-2.10.3.jar  jackson-databind-2.10.3.jar  jackson-core-2.10.3.jar  jcl-over-slf4j-1.7.30.jar  docker-java-transport-httpclient5-3.4.0.jar  docker-java-transport-3.4.0.jar  jna-5.13.0.jar  dec-0.1.2.jar  commons-lang3-3.15.0.jar  commons-compress-1.26.2.jar  httpclient5-5.2.1.jar  httpcore5-5.2.jar  httpcore5-h2-5.2.jar  testng-7.9.0.jar  jcommander-1.82.jar  jquery-3.7.1.jar  poi-5.2.5.jar  commons-codec-1.16.0.jar  commons-collections4-4.4.jar  commons-math3-3.6.1.jar  commons-io-2.15.0.jar  SparseBitSet-1.3.jar  log4j-api-2.21.1.jar  poi-ooxml-5.2.5.jar  poi-ooxml-lite-5.2.5.jar  xmlbeans-5.2.0.jar  curvesapi-1.08.jar  slf4j-api-2.0.12.jar  logback-classic-1.4.14.jar  logback-core-1.4.14.jar  surefire-testng-3.2.5.jar  common-java5-3.2.5.jar  surefire-testng-utils-3.2.5.jar  surefire-grouper-3.2.5.jar
+[DEBUG] Forking command line: /bin/sh -c cd '/Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy' && '/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/bin/java' '-jar' '/Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/surefire/surefirebooter-20250328142530455_3.jar' '/Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/surefire' '2025-03-28T14-25-30_421-jvmRun1' 'surefire-20250328142530455_1tmp' 'surefire_0-20250328142530455_2tmp'
+[DEBUG] Fork Channel [1] connected to the client.
+[INFO] Running TestSuite
+[ERROR] 
+Cannot instantiate class testcases.IdentifyCoursesTest
+[DEBUG] Closing the fork 1 after saying GoodBye.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.886 s
+[INFO] Finished at: 2025-03-28T14:25:30+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project CourseraScraper: 
+[ERROR] 
+[ERROR] Please refer to /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] There was an error in the forked process
+[ERROR] 
+[ERROR] Cannot instantiate class testcases.IdentifyCoursesTest
+[ERROR] org.testng.TestNGException: 
+[ERROR] Cannot instantiate class testcases.IdentifyCoursesTest
+[ERROR] 	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:41)
+[ERROR] 	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18)
+[ERROR] 	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:178)
+[ERROR] 	at org.testng.internal.objects.SimpleObjectDispenser.createInstance(SimpleObjectDispenser.java:87)
+[ERROR] 	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:40)
+[ERROR] 	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28)
+[ERROR] 	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:106)
+[ERROR] 	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:136)
+[ERROR] 	at org.testng.TestClass.getInstances(TestClass.java:129)
+[ERROR] 	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:109)
+[ERROR] 	at org.testng.TestClass.init(TestClass.java:101)
+[ERROR] 	at org.testng.TestClass.<init>(TestClass.java:66)
+[ERROR] 	at org.testng.TestRunner.initMethods(TestRunner.java:481)
+[ERROR] 	at org.testng.TestRunner.init(TestRunner.java:354)
+[ERROR] 	at org.testng.TestRunner.init(TestRunner.java:307)
+[ERROR] 	at org.testng.TestRunner.<init>(TestRunner.java:182)
+[ERROR] 	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:652)
+[ERROR] 	at org.testng.SuiteRunner.init(SuiteRunner.java:224)
+[ERROR] 	at org.testng.SuiteRunner.<init>(SuiteRunner.java:116)
+[ERROR] 	at org.testng.TestNG.createSuiteRunner(TestNG.java:1396)
+[ERROR] 	at org.testng.TestNG.createSuiteRunners(TestNG.java:1370)
+[ERROR] 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1219)
+[ERROR] 	at org.testng.TestNG.runSuites(TestNG.java:1134)
+[ERROR] 	at org.testng.TestNG.run(TestNG.java:1101)
+[ERROR] 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+[ERROR] 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+[ERROR] 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+[ERROR] 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+[ERROR] 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+[ERROR] 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+[ERROR] 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+[ERROR] Caused by: java.lang.reflect.InvocationTargetException
+[ERROR] 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+[ERROR] 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+[ERROR] 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+[ERROR] 	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:38)
+[ERROR] 	... 30 more
+[ERROR] Caused by: java.lang.Error: Unresolved compilation problems: 
+[ERROR] 	The import pages.AdminCoursesPage.CourseVersion cannot be resolved
+[ERROR] 	The method navigateToAdminCourses(String) is undefined for the type AdminCoursesPage
+[ERROR] 	CourseVersion cannot be resolved to a type
+[ERROR] 	The method searchAndGetCourseVersions(String) is undefined for the type AdminCoursesPage
+[ERROR] 	CourseVersion cannot be resolved to a type
+[ERROR] 	Type mismatch: cannot convert from element type Course to Map<String,String>
+[ERROR] 	The method get(String) is undefined for the type Course
+[ERROR] 
+[ERROR] 	at testcases.IdentifyCoursesTest.<init>(IdentifyCoursesTest.java:11)
+[ERROR] 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+[ERROR] 	... 33 more
+[ERROR] 
+[ERROR] org.apache.maven.surefire.booter.SurefireBooterForkException: There was an error in the forked process
+[ERROR] 
+[ERROR] Cannot instantiate class testcases.IdentifyCoursesTest
+[ERROR] org.testng.TestNGException: 
+[ERROR] Cannot instantiate class testcases.IdentifyCoursesTest
+[ERROR] 	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:41)
+[ERROR] 	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18)
+[ERROR] 	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:178)
+[ERROR] 	at org.testng.internal.objects.SimpleObjectDispenser.createInstance(SimpleObjectDispenser.java:87)
+[ERROR] 	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:40)
+[ERROR] 	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28)
+[ERROR] 	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:106)
+[ERROR] 	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:136)
+[ERROR] 	at org.testng.TestClass.getInstances(TestClass.java:129)
+[ERROR] 	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:109)
+[ERROR] 	at org.testng.TestClass.init(TestClass.java:101)
+[ERROR] 	at org.testng.TestClass.<init>(TestClass.java:66)
+[ERROR] 	at org.testng.TestRunner.initMethods(TestRunner.java:481)
+[ERROR] 	at org.testng.TestRunner.init(TestRunner.java:354)
+[ERROR] 	at org.testng.TestRunner.init(TestRunner.java:307)
+[ERROR] 	at org.testng.TestRunner.<init>(TestRunner.java:182)
+[ERROR] 	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:652)
+[ERROR] 	at org.testng.SuiteRunner.init(SuiteRunner.java:224)
+[ERROR] 	at org.testng.SuiteRunner.<init>(SuiteRunner.java:116)
+[ERROR] 	at org.testng.TestNG.createSuiteRunner(TestNG.java:1396)
+[ERROR] 	at org.testng.TestNG.createSuiteRunners(TestNG.java:1370)
+[ERROR] 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1219)
+[ERROR] 	at org.testng.TestNG.runSuites(TestNG.java:1134)
+[ERROR] 	at org.testng.TestNG.run(TestNG.java:1101)
+[ERROR] 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+[ERROR] 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+[ERROR] 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+[ERROR] 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+[ERROR] 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+[ERROR] 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+[ERROR] 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+[ERROR] Caused by: java.lang.reflect.InvocationTargetException
+[ERROR] 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+[ERROR] 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+[ERROR] 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+[ERROR] 	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:38)
+[ERROR] 	... 30 more
+[ERROR] Caused by: java.lang.Error: Unresolved compilation problems: 
+[ERROR] 	The import pages.AdminCoursesPage.CourseVersion cannot be resolved
+[ERROR] 	The method navigateToAdminCourses(String) is undefined for the type AdminCoursesPage
+[ERROR] 	CourseVersion cannot be resolved to a type
+[ERROR] 	The method searchAndGetCourseVersions(String) is undefined for the type AdminCoursesPage
+[ERROR] 	CourseVersion cannot be resolved to a type
+[ERROR] 	Type mismatch: cannot convert from element type Course to Map<String,String>
+[ERROR] 	The method get(String) is undefined for the type Course
+[ERROR] 
+[ERROR] 	at testcases.IdentifyCoursesTest.<init>(IdentifyCoursesTest.java:11)
+[ERROR] 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+[ERROR] 	... 33 more
+[ERROR] 
+[ERROR] 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:628)
+[ERROR] 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:285)
+[ERROR] 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:250)
+[ERROR] 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1241)
+[ERROR] 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1090)
+[ERROR] 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:910)
+[ERROR] 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+[ERROR] 	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+[ERROR] 	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+[ERROR] 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+[ERROR] 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+[ERROR] 	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+[ERROR] 	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+[ERROR] 	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+[ERROR] 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+[ERROR] 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+[ERROR] 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+[ERROR] 	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+[ERROR] 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+[ERROR] 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+[ERROR] 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+[ERROR] 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+[ERROR] 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
+[ERROR] 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
+[ERROR] 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
+[ERROR] 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[ERROR] 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[ERROR] 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+[ERROR] 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+[ERROR] 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+[ERROR] 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+[ERROR] 
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project CourseraScraper: 
+
+Please refer to /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+There was an error in the forked process
+
+Cannot instantiate class testcases.IdentifyCoursesTest
+org.testng.TestNGException: 
+Cannot instantiate class testcases.IdentifyCoursesTest
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:41)
+	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18)
+	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:178)
+	at org.testng.internal.objects.SimpleObjectDispenser.createInstance(SimpleObjectDispenser.java:87)
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:40)
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:106)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:136)
+	at org.testng.TestClass.getInstances(TestClass.java:129)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:109)
+	at org.testng.TestClass.init(TestClass.java:101)
+	at org.testng.TestClass.<init>(TestClass.java:66)
+	at org.testng.TestRunner.initMethods(TestRunner.java:481)
+	at org.testng.TestRunner.init(TestRunner.java:354)
+	at org.testng.TestRunner.init(TestRunner.java:307)
+	at org.testng.TestRunner.<init>(TestRunner.java:182)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:652)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:224)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:116)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1396)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1370)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1219)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:38)
+	... 30 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import pages.AdminCoursesPage.CourseVersion cannot be resolved
+	The method navigateToAdminCourses(String) is undefined for the type AdminCoursesPage
+	CourseVersion cannot be resolved to a type
+	The method searchAndGetCourseVersions(String) is undefined for the type AdminCoursesPage
+	CourseVersion cannot be resolved to a type
+	Type mismatch: cannot convert from element type Course to Map<String,String>
+	The method get(String) is undefined for the type Course
+
+	at testcases.IdentifyCoursesTest.<init>(IdentifyCoursesTest.java:11)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	... 33 more
+
+org.apache.maven.surefire.booter.SurefireBooterForkException: There was an error in the forked process
+
+Cannot instantiate class testcases.IdentifyCoursesTest
+org.testng.TestNGException: 
+Cannot instantiate class testcases.IdentifyCoursesTest
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:41)
+	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18)
+	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:178)
+	at org.testng.internal.objects.SimpleObjectDispenser.createInstance(SimpleObjectDispenser.java:87)
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:40)
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:106)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:136)
+	at org.testng.TestClass.getInstances(TestClass.java:129)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:109)
+	at org.testng.TestClass.init(TestClass.java:101)
+	at org.testng.TestClass.<init>(TestClass.java:66)
+	at org.testng.TestRunner.initMethods(TestRunner.java:481)
+	at org.testng.TestRunner.init(TestRunner.java:354)
+	at org.testng.TestRunner.init(TestRunner.java:307)
+	at org.testng.TestRunner.<init>(TestRunner.java:182)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:652)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:224)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:116)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1396)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1370)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1219)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:38)
+	... 30 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import pages.AdminCoursesPage.CourseVersion cannot be resolved
+	The method navigateToAdminCourses(String) is undefined for the type AdminCoursesPage
+	CourseVersion cannot be resolved to a type
+	The method searchAndGetCourseVersions(String) is undefined for the type AdminCoursesPage
+	CourseVersion cannot be resolved to a type
+	Type mismatch: cannot convert from element type Course to Map<String,String>
+	The method get(String) is undefined for the type Course
+
+	at testcases.IdentifyCoursesTest.<init>(IdentifyCoursesTest.java:11)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	... 33 more
+
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:628)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:285)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:250)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1241)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1090)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:910)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.MojoExecutionException: 
+
+Please refer to /Users/skillup279/Downloads/Fun_Friday_Games-main/my-app_1 copy/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+There was an error in the forked process
+
+Cannot instantiate class testcases.IdentifyCoursesTest
+org.testng.TestNGException: 
+Cannot instantiate class testcases.IdentifyCoursesTest
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:41)
+	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18)
+	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:178)
+	at org.testng.internal.objects.SimpleObjectDispenser.createInstance(SimpleObjectDispenser.java:87)
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:40)
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:106)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:136)
+	at org.testng.TestClass.getInstances(TestClass.java:129)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:109)
+	at org.testng.TestClass.init(TestClass.java:101)
+	at org.testng.TestClass.<init>(TestClass.java:66)
+	at org.testng.TestRunner.initMethods(TestRunner.java:481)
+	at org.testng.TestRunner.init(TestRunner.java:354)
+	at org.testng.TestRunner.init(TestRunner.java:307)
+	at org.testng.TestRunner.<init>(TestRunner.java:182)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:652)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:224)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:116)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1396)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1370)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1219)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:38)
+	... 30 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import pages.AdminCoursesPage.CourseVersion cannot be resolved
+	The method navigateToAdminCourses(String) is undefined for the type AdminCoursesPage
+	CourseVersion cannot be resolved to a type
+	The method searchAndGetCourseVersions(String) is undefined for the type AdminCoursesPage
+	CourseVersion cannot be resolved to a type
+	Type mismatch: cannot convert from element type Course to Map<String,String>
+	The method get(String) is undefined for the type Course
+
+	at testcases.IdentifyCoursesTest.<init>(IdentifyCoursesTest.java:11)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	... 33 more
+
+org.apache.maven.surefire.booter.SurefireBooterForkException: There was an error in the forked process
+
+Cannot instantiate class testcases.IdentifyCoursesTest
+org.testng.TestNGException: 
+Cannot instantiate class testcases.IdentifyCoursesTest
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:41)
+	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18)
+	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:178)
+	at org.testng.internal.objects.SimpleObjectDispenser.createInstance(SimpleObjectDispenser.java:87)
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:40)
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:106)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:136)
+	at org.testng.TestClass.getInstances(TestClass.java:129)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:109)
+	at org.testng.TestClass.init(TestClass.java:101)
+	at org.testng.TestClass.<init>(TestClass.java:66)
+	at org.testng.TestRunner.initMethods(TestRunner.java:481)
+	at org.testng.TestRunner.init(TestRunner.java:354)
+	at org.testng.TestRunner.init(TestRunner.java:307)
+	at org.testng.TestRunner.<init>(TestRunner.java:182)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:652)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:224)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:116)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1396)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1370)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1219)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:38)
+	... 30 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import pages.AdminCoursesPage.CourseVersion cannot be resolved
+	The method navigateToAdminCourses(String) is undefined for the type AdminCoursesPage
+	CourseVersion cannot be resolved to a type
+	The method searchAndGetCourseVersions(String) is undefined for the type AdminCoursesPage
+	CourseVersion cannot be resolved to a type
+	Type mismatch: cannot convert from element type Course to Map<String,String>
+	The method get(String) is undefined for the type Course
+
+	at testcases.IdentifyCoursesTest.<init>(IdentifyCoursesTest.java:11)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	... 33 more
+
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:628)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:285)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:250)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1241)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1090)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:910)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+
+    at org.apache.maven.plugin.surefire.SurefireHelper.throwException (SurefireHelper.java:244)
+    at org.apache.maven.plugin.surefire.SurefireHelper.reportExecution (SurefireHelper.java:159)
+    at org.apache.maven.plugin.surefire.SurefirePlugin.handleSummary (SurefirePlugin.java:542)
+    at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked (AbstractSurefireMojo.java:1102)
+    at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute (AbstractSurefireMojo.java:910)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.surefire.booter.SurefireBooterForkException: There was an error in the forked process
+
+Cannot instantiate class testcases.IdentifyCoursesTest
+org.testng.TestNGException: 
+Cannot instantiate class testcases.IdentifyCoursesTest
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:41)
+	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18)
+	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:178)
+	at org.testng.internal.objects.SimpleObjectDispenser.createInstance(SimpleObjectDispenser.java:87)
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:40)
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:106)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:136)
+	at org.testng.TestClass.getInstances(TestClass.java:129)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:109)
+	at org.testng.TestClass.init(TestClass.java:101)
+	at org.testng.TestClass.<init>(TestClass.java:66)
+	at org.testng.TestRunner.initMethods(TestRunner.java:481)
+	at org.testng.TestRunner.init(TestRunner.java:354)
+	at org.testng.TestRunner.init(TestRunner.java:307)
+	at org.testng.TestRunner.<init>(TestRunner.java:182)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:652)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:224)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:116)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1396)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1370)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1219)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:38)
+	... 30 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import pages.AdminCoursesPage.CourseVersion cannot be resolved
+	The method navigateToAdminCourses(String) is undefined for the type AdminCoursesPage
+	CourseVersion cannot be resolved to a type
+	The method searchAndGetCourseVersions(String) is undefined for the type AdminCoursesPage
+	CourseVersion cannot be resolved to a type
+	Type mismatch: cannot convert from element type Course to Map<String,String>
+	The method get(String) is undefined for the type Course
+
+	at testcases.IdentifyCoursesTest.<init>(IdentifyCoursesTest.java:11)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	... 33 more
+
+    at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork (ForkStarter.java:628)
+    at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run (ForkStarter.java:285)
+    at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run (ForkStarter.java:250)
+    at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider (AbstractSurefireMojo.java:1241)
+    at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked (AbstractSurefireMojo.java:1090)
+    at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute (AbstractSurefireMojo.java:910)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:103)
+    at java.lang.reflect.Method.invoke (Method.java:580)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory

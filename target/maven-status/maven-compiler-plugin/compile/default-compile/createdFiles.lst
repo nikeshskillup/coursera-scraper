@@ -1,0 +1,14 @@
+pages/AdminCoursesPage.class
+pages/HomePage.class
+pages/RegistrationPage.class
+pages/DashboardPage.class
+pages/AdminCoursesPage$CourseVersion.class
+testcases/SaveCookiesTest.class
+pages/ForgottenPasswordPage.class
+pages/CourseRatingsScraper.class
+pages/CoursePage.class
+com/coursera/scraper/model/Course.class
+utils/TestUtil.class
+base/BasePage.class
+pages/LoginPage.class
+pages/AnalyticsPage.class
