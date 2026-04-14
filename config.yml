@@ -1,0 +1,45 @@
+coursera:
+  base_url: "https://www.coursera.org"
+  admin_partners:
+    - name: "ibm-skills-network"
+      url: "/admin/ibm-skills-network/home/courses"
+    - name: "skillup-ed-tech"
+      url: "/admin/skillup-ed-tech/home/courses"
+
+scraper:
+  thread_pool_size: 4
+  batch_size: 5
+  retry_attempts: 3
+  timeouts:
+    page_load_ms: 30000
+    implicit_wait_ms: 10000
+    instant_wait_ms: 2000
+    short_wait_ms: 5000
+    medium_wait_ms: 15000
+    long_wait_ms: 30000
+
+browser:
+  headless: true
+  disable_automation: true
+  disable_extensions: true
+  user_agent: "Custom User Agent"
+
+export:
+  format: "xlsx"
+  output_directory: "./reports"
+  include_timestamp: true
+  batch_every_n_courses: 25
+
+cache:
+  enabled: true
+  file_path: "course_cache.json"
+  ttl_hours: 168
+
+checkpoint:
+  enabled: true
+  file_path: "scraper_checkpoint.json"
+
+logging:
+  level: "INFO"
+  file_path: "logs/application.log"
+  max_history_days: 30
