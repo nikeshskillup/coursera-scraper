@@ -1,0 +1,141 @@
+Partner: ibm
+Total courses: 138
+
+Project Lifecycle, Information Sharing, and Risk Management
+Project Management Communication, Stakeholders & Leadership
+Introduction to Scrum Master Profession
+Office Productivity Software and Windows Fundamentals
+Working as a Scrum Master
+Practice Exam for CAPM Certification
+Scrum Master Capstone
+Practice Exam for Certified Scrum Master (CSM) Certification
+Product Management: Foundations & Stakeholder Collaboration
+Product Management: Initial Product Strategy and Plan
+Product Management: Developing and Delivering a New Product
+Getting Started with Tableau
+Practice Exam for AIPMM Certified Product Manager (CPM)
+Advanced Data Visualization with Tableau
+Product Management: Building AI-Powered Products
+Generative AI: Supercharge Your Product Management Career
+Generative AI: Unleash Your Project Management Potential
+Generative AI: Advance Your Human Resources (HR) Career
+Generative AI: Elevate your Business Intelligence Career
+Program Management: Framework, Strategy, and Planning
+Program Management: Execution, Stakeholders & Governance
+React Native: Developing Android and iOS Apps
+The Business Intelligence (BI) Analyst Capstone Project
+Business Analysis: Process Modeling & Requirements Gathering
+Business Analysis: Project and Stakeholder Management
+Mobile App Development Capstone Project
+The Product Owner Profession:  Unleashing the Power of Scrum
+Business Analysis: Preparation Exam for ECBA Certification
+Product Owner: Communications & Stakeholder Management
+Generative AI:  Turbocharge Mobile App Development
+Product Owner: Essential Skills and Tools for Innovation
+Java Development with Databases
+UX/UI Design Fundamentals: Usability and Visual Principles
+Generative AI: Revolutionizing the Product Owner Role
+IT Systems Design and Analysis
+UI/UX Wireframing and Prototyping with Figma
+Project Management Foundations, Initiation, and Planning
+Generative AI: A Game Changer for Program Managers
+Generative AI: Transform Your Customer Support Career
+Java: Design Patterns, Testing, and Deployment
+Software Development on SAP HANA
+Get Started with Android App Development
+Get Started with Mail and Calendar Applications: Outlook
+Program Management: Prepare for PMI-PgMP Certification Exam
+Mobile App Notifications, Databases, & Publishing
+Get Started with iOS App Development
+Power BI Data Analyst Prep
+Get Started with Spreadsheet Applications: Excel
+Get Started with Word Processing Applications: Word
+Get Started with Messaging & Collaboration Apps: Teams/Zoom
+Six Sigma for Process Improvement
+Get Started with Presentation Applications: PowerPoint
+Practice Exam for Scrum.org PSPO I Certification
+Data Integration, Data Storage, & Data Migration
+Intro to Lean Six Sigma and Project Identification Methods
+Practice Exam for ISC2 Certified in Cybersecurity (CC)
+Power BI Data Analyst Associate Prep
+Overview:Six Sigma and the Organization
+Leadership and Team Management
+Introduction to Ethical Hacking Principles
+Prep for Microsoft Azure Data Engineer Associate Cert DP-203
+Vector Search with NoSQL Databases using MongoDB & Cassandra
+Mastering Advanced Data and Analytics Features in Tableau
+Tableau Capstone Project
+Enterprise Data Architecture and Operations
+Vector Search with Relational Databases using PostgreSQL
+Practice Exam for Tableau Certified Data Analyst
+Managing Identity Services using AD DS and Microsoft Entra
+Data Management Capstone Project
+Managing Windows Servers, Virtualization, & Containerization
+The DMAIC Framework - Define and Measure Phase
+Generative AI for Java and Spring Development
+Improvement Techniques and Control Tools
+Data Collection and Root Cause Analysis
+Digital Advertising
+Managing Storage and Networking
+The DMAIC Framework:Analyze, Improve, and Control Phase
+Blockchain and Cryptography Overview
+Practice Exam for Scrum.org PSM I Certification
+Data Architect Capstone Project
+Cutting-Edge Blockchain Security Mechanisms
+Business Implementation and Security
+Authorization and Managing Identity in Azure
+Networking and Migration in Azure
+Practice Test for CompTIA Data+ Certification
+Logging and Monitoring Tools in Azure
+Network Traffic Analysis with Wireshark
+Generative AI: Revolutionizing Business Analysis Techniques
+Social Media Marketing
+Java App Development Project: Fundamentals, OOP & File I/O
+E-commerce Marketing and Email Campaigns
+Applying GenAI Tools for Process Automation
+Introduction to GenAI for Business Process Automation
+Building and Deploying GenAI Agents for Process Automation
+Advanced GenAI Development Practices
+Data Privacy and Protection
+GenAI-Assisted Development and Code Quality
+Cybersecurity Awareness
+Using GenAI in Modern Software Development
+AI Ethics for the Workplace
+Driving Collaboration and Culture in Remote Teams
+Essentials of Remote Team Management
+Delivering Results with Remote Teams
+Generative AI: The Future of UX UI Design
+Generative AI: Advancing Systems Analysis & Architecture
+Foundations of AI in Healthcare
+SEO, Generative AI, and GEO Capstone Project
+Project, Stakeholder, and Requirements Management
+Machine Learning for Medical Data
+AI Technologies in Healthcare
+AI SEO: Mastering Generative Engine Optimization (GEO)
+Business Process Modeling, Analysis, and Improvement
+Data Privacy, Security, Governance, Risk and Compliance
+Spring Framework for Java Development
+Healthcare Data Visualization and Decision Support
+Statistical Analysis and Data Modeling in Healthcare
+Healthcare Data Visualization and Decision Support
+Neurodiversity in the Workplace
+Employment Law for Managers
+Code of Conduct
+Diversity, Equity, Inclusion and Belonging in the Workplace
+Fundamentals of Data Science in Healthcare
+Machine Learning for Healthcare Applications
+Advanced Healthcare Analytics
+Critical Communication and Leadership Skills
+Understanding Management and Leadership
+How to Build Credibility and Trust
+Name Screening and Reporting Obligations - US
+Protecting Against Money Laundering & Terrorist Financing—US
+Safeguarding Against Financial Elder Abuses
+Customer Identification Program - US
+Growth Mindset
+Currency Transaction Reports - US
+Suspicious Transaction Reporting (STR) - US
+Leadership in the New AI Landscape
+HIPAA Fundamentals
+Servicemembers Civil Relief Act and Military Lending Act
+Preventing Fraud, Waste, and Abuse (FWA) in Healthcare

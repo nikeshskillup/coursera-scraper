@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: testcases.IdentifyCoursesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 535.4 s -- in testcases.IdentifyCoursesTest

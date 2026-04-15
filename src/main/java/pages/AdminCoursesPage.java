@@ -74,6 +74,46 @@ public class AdminCoursesPage {
         logger.info("Current URL after navigation: {}", driver.getCurrentUrl());
     }
 
+    public List<String> getCourseNamesFromAdminPage() {
+        List<String> courseNames = new ArrayList<>();
+        int pageNumber = 1;
+        boolean hasNextPage = true;
+
+        while (hasNextPage) {
+            try {
+                waitForCourseListing();
+                List<WebElement> allCourseLinks = driver.findElements(By.xpath("//a[contains(@href,'/teach/') and normalize-space(string(.))!='']"));
+                logger.info("Page {}: found {} candidate course links", pageNumber, allCourseLinks.size());
+
+                for (WebElement link : allCourseLinks) {
+                    try {
+                        String title = link.getText().trim();
+                        if (title.length() < 5) {
+                            continue;
+                        }
+                        String lower = title.toLowerCase();
+                        if (lower.contains("analytics") || lower.contains("ratings") || lower.contains("course details")) {
+                            continue;
+                        }
+                        if (!courseNames.contains(title)) {
+                            courseNames.add(title);
+                        }
+                    } catch (StaleElementReferenceException ignored) {
+                        // Ignore stale elements during collection
+                    }
+                }
+
+                hasNextPage = navigateToNextPage();
+                pageNumber++;
+            } catch (Exception e) {
+                logger.warn("Failed to collect course names from admin page on page {}: {}", pageNumber, e.getMessage());
+                break;
+            }
+        }
+
+        return courseNames;
+    }
+
     private String toSlug(String courseName) {
         return courseName.toLowerCase().replaceAll("[^a-z0-9]+", "-");
     }

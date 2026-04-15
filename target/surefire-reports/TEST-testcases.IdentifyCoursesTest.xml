@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testcases.IdentifyCoursesTest" time="535.356" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="webdriver.chrome.driver" value="/Users/skillup281/.cache/selenium/chromedriver/mac-arm64/147.0.7727.56/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/skillup281/Library/CloudStorage/OneDrive-FlexibleRoadLLC/Desktop/scraper-main 2 copy/target/test-classes:/Users/skillup281/Library/CloudStorage/OneDrive-FlexibleRoadLLC/Desktop/scraper-main 2 copy/target/classes:/Users/skillup281/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/skillup281/.m2/repository/com/typesafe/config/1.4.2/config-1.4.2.jar:/Users/skillup281/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-java/4.26.0/selenium-java-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-api/4.26.0/selenium-api-4.26.0.jar:/Users/skillup281/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.26.0/selenium-chrome-driver-4.26.0.jar:/Users/skillup281/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.26.0/selenium-chromium-driver-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-json/4.26.0/selenium-json-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.26.0/selenium-manager-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v128/4.26.0/selenium-devtools-v128-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.26.0/selenium-devtools-v129-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.26.0/selenium-devtools-v130-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.26.0/selenium-devtools-v85-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.26.0/selenium-edge-driver-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.26.0/selenium-firefox-driver-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-http/4.26.0/selenium-http-4.26.0.jar:/Users/skillup281/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.26.0/selenium-ie-driver-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.26.0/selenium-remote-driver-4.26.0.jar:/Users/skillup281/.m2/repository/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar:/Users/skillup281/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/skillup281/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/skillup281/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/skillup281/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/skillup281/.m2/repository/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/Users/skillup281/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-api/1.43.0/opentelemetry-api-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-context/1.43.0/opentelemetry-context-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.43.0/opentelemetry-exporter-logging-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.43.0/opentelemetry-sdk-common-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.43.0/opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.43.0/opentelemetry-sdk-extension-autoconfigure-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.43.0-alpha/opentelemetry-api-incubator-1.43.0-alpha.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.43.0/opentelemetry-sdk-trace-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.43.0/opentelemetry-sdk-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.43.0/opentelemetry-sdk-metrics-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.43.0/opentelemetry-sdk-logs-1.43.0.jar:/Users/skillup281/.m2/repository/net/bytebuddy/byte-buddy/1.15.7/byte-buddy-1.15.7.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-os/4.26.0/selenium-os-4.26.0.jar:/Users/skillup281/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.26.0/selenium-safari-driver-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-support/4.26.0/selenium-support-4.26.0.jar:/Users/skillup281/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar:/Users/skillup281/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar:/Users/skillup281/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar:/Users/skillup281/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar:/Users/skillup281/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/skillup281/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/skillup281/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/skillup281/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/skillup281/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar:/Users/skillup281/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar:/Users/skillup281/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/skillup281/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/skillup281/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar:/Users/skillup281/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/skillup281/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/skillup281/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/skillup281/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/skillup281/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/skillup281/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/skillup281/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/skillup281/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/skillup281/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/skillup281/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/skillup281/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/skillup281/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/skillup281/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/skillup281/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/skillup281/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/skillup281/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/skillup281/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/skillup281/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/skillup281/.m2/repository/org/slf4j/slf4j-simple/2.0.12/slf4j-simple-2.0.12.jar:/Users/skillup281/.m2/repository/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar:/Users/skillup281/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/skillup281/Library/CloudStorage/OneDrive-FlexibleRoadLLC/Desktop/scraper-main 2 copy/target/surefire/surefirebooter-20260414160154426_3.jar /Users/skillup281/Library/CloudStorage/OneDrive-FlexibleRoadLLC/Desktop/scraper-main 2 copy/target/surefire 2026-04-14T16-01-54_388-jvmRun1 surefire-20260414160154426_1tmp surefire_0-20260414160154426_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="IdentifyCoursesTest"/>
+    <property name="surefire.test.class.path" value="/Users/skillup281/Library/CloudStorage/OneDrive-FlexibleRoadLLC/Desktop/scraper-main 2 copy/target/test-classes:/Users/skillup281/Library/CloudStorage/OneDrive-FlexibleRoadLLC/Desktop/scraper-main 2 copy/target/classes:/Users/skillup281/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/skillup281/.m2/repository/com/typesafe/config/1.4.2/config-1.4.2.jar:/Users/skillup281/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-java/4.26.0/selenium-java-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-api/4.26.0/selenium-api-4.26.0.jar:/Users/skillup281/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.26.0/selenium-chrome-driver-4.26.0.jar:/Users/skillup281/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.26.0/selenium-chromium-driver-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-json/4.26.0/selenium-json-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.26.0/selenium-manager-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v128/4.26.0/selenium-devtools-v128-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.26.0/selenium-devtools-v129-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.26.0/selenium-devtools-v130-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.26.0/selenium-devtools-v85-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.26.0/selenium-edge-driver-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.26.0/selenium-firefox-driver-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-http/4.26.0/selenium-http-4.26.0.jar:/Users/skillup281/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.26.0/selenium-ie-driver-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.26.0/selenium-remote-driver-4.26.0.jar:/Users/skillup281/.m2/repository/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar:/Users/skillup281/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/skillup281/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/skillup281/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/skillup281/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/skillup281/.m2/repository/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/Users/skillup281/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-api/1.43.0/opentelemetry-api-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-context/1.43.0/opentelemetry-context-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.43.0/opentelemetry-exporter-logging-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.43.0/opentelemetry-sdk-common-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.43.0/opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.43.0/opentelemetry-sdk-extension-autoconfigure-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.43.0-alpha/opentelemetry-api-incubator-1.43.0-alpha.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.43.0/opentelemetry-sdk-trace-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.43.0/opentelemetry-sdk-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.43.0/opentelemetry-sdk-metrics-1.43.0.jar:/Users/skillup281/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.43.0/opentelemetry-sdk-logs-1.43.0.jar:/Users/skillup281/.m2/repository/net/bytebuddy/byte-buddy/1.15.7/byte-buddy-1.15.7.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-os/4.26.0/selenium-os-4.26.0.jar:/Users/skillup281/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.26.0/selenium-safari-driver-4.26.0.jar:/Users/skillup281/.m2/repository/org/seleniumhq/selenium/selenium-support/4.26.0/selenium-support-4.26.0.jar:/Users/skillup281/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar:/Users/skillup281/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar:/Users/skillup281/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar:/Users/skillup281/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar:/Users/skillup281/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/skillup281/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/skillup281/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/skillup281/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/skillup281/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar:/Users/skillup281/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar:/Users/skillup281/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/skillup281/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/skillup281/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar:/Users/skillup281/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/skillup281/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/skillup281/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/skillup281/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/skillup281/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/skillup281/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/skillup281/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/skillup281/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/skillup281/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/skillup281/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/skillup281/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/skillup281/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/skillup281/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/skillup281/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/skillup281/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/skillup281/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/skillup281/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/skillup281/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/skillup281/.m2/repository/org/slf4j/slf4j-simple/2.0.12/slf4j-simple-2.0.12.jar:/Users/skillup281/.m2/repository/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar:/Users/skillup281/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/skillup281"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/skillup281/Library/CloudStorage/OneDrive-FlexibleRoadLLC/Desktop/scraper-main 2 copy"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/skillup281/Library/CloudStorage/OneDrive-FlexibleRoadLLC/Desktop/scraper-main 2 copy/target/surefire/surefirebooter-20260414160154426_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.2"/>
+    <property name="user.name" value="skillup281"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.4.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/skillup281/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/kp/p2pl3nl1007_nxsy71s1d5640000gn/T/"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="/Users/skillup281/Library/CloudStorage/OneDrive-FlexibleRoadLLC/Desktop/scraper-main 2 copy"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/skillup281/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.2"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="partners" value="skillup"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testScrapeCourseRatings" classname="testcases.IdentifyCoursesTest" time="516.978">
+    <system-err><![CDATA[[main] INFO base.BasePage - Config loaded successfully
+[main] INFO testcases.IdentifyCoursesTest - ========== TEST SETUP START ==========
+[main] INFO base.BasePage - Initializing browser: chrome, headless: true
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.56 (resolved driver for Chrome 147)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/skillup281/.cache/selenium/chromedriver/mac-arm64/147.0.7727.56/chromedriver
+Apr 14, 2026 4:01:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 147
+Apr 14, 2026 4:01:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 147.0.7727.56. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[main] INFO base.BasePage - Navigating to URL: https://www.coursera.org
+[main] INFO base.BasePage - Cookies loaded
+[main] INFO base.BasePage - All pages initialized successfully
+[main] INFO config.AppConfig - Configuration loaded from classpath: config.properties
+[main] INFO utils.WebDriverPool - Initializing WebDriver pool with 4 drivers
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.56 (resolved driver for Chrome 147)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/skillup281/.cache/selenium/chromedriver/mac-arm64/147.0.7727.56/chromedriver
+Apr 14, 2026 4:02:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 147
+Apr 14, 2026 4:02:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 147.0.7727.56. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.56 (resolved driver for Chrome 147)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/skillup281/.cache/selenium/chromedriver/mac-arm64/147.0.7727.56/chromedriver
+Apr 14, 2026 4:02:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 147
+Apr 14, 2026 4:02:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 147.0.7727.56. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.56 (resolved driver for Chrome 147)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/skillup281/.cache/selenium/chromedriver/mac-arm64/147.0.7727.56/chromedriver
+Apr 14, 2026 4:02:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 147
+Apr 14, 2026 4:02:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 147.0.7727.56. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.56 (resolved driver for Chrome 147)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/skillup281/.cache/selenium/chromedriver/mac-arm64/147.0.7727.56/chromedriver
+Apr 14, 2026 4:02:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 147
+Apr 14, 2026 4:02:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 147.0.7727.56. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.26.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[main] INFO utils.WebDriverPool - WebDriver pool initialized successfully
+[main] INFO testcases.IdentifyCoursesTest - Test setup completed successfully
+[main] INFO testcases.IdentifyCoursesTest -   Configuration:
+[main] INFO testcases.IdentifyCoursesTest -     - Thread Pool Size: 4
+[main] INFO testcases.IdentifyCoursesTest -     - Headless Mode: false
+[main] INFO testcases.IdentifyCoursesTest -     - Cache Enabled: true
+[main] INFO testcases.IdentifyCoursesTest -     - Checkpoint Enabled: true
+[main] INFO testcases.IdentifyCoursesTest -     - Partners: [skillup]
+[main] INFO testcases.IdentifyCoursesTest -   Utilities Initialized:
+[main] INFO testcases.IdentifyCoursesTest -     - WebDriverPool: Ready (4 instances)
+[main] INFO testcases.IdentifyCoursesTest -     - CourseCache: Ready
+[main] INFO testcases.IdentifyCoursesTest -     - CheckpointManager: Ready
+[main] INFO testcases.IdentifyCoursesTest -     - PerformanceMetrics: Ready
+[main] INFO testcases.IdentifyCoursesTest - ========== TEST SETUP END ==========
+
+[main] INFO testcases.IdentifyCoursesTest - ========== TEST EXECUTION START ==========
+[main] INFO testcases.IdentifyCoursesTest - Test Configuration:
+[main] INFO testcases.IdentifyCoursesTest -   - Partners: [skillup]
+[main] INFO testcases.IdentifyCoursesTest -   - Thread Pool Size: 4
+[main] INFO testcases.IdentifyCoursesTest -   - Batch Size: 5 sublists
+[main] INFO testcases.IdentifyCoursesTest -   - Cache Enabled: true
+[main] INFO testcases.IdentifyCoursesTest -   - Checkpoint Enabled: true
+[main] INFO testcases.IdentifyCoursesTest - Fetching course list for partner 'skillup' from admin page: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[main] INFO pages.AdminCoursesPage - Navigating to Admin Courses page: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[main] INFO pages.AdminCoursesPage - Current URL after navigation: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[main] INFO pages.AdminCoursesPage - Page 1: found 10 candidate course links
+[main] INFO pages.AdminCoursesPage - No 'Next' button found. Assuming this is the last page.
+[main] INFO testcases.IdentifyCoursesTest - Found 10 courses for partner 'skillup'
+[main] INFO testcases.IdentifyCoursesTest -   - Total Courses: 10
+[main] INFO testcases.IdentifyCoursesTest - Saved partner course list to /Users/skillup281/Library/CloudStorage/OneDrive-FlexibleRoadLLC/Desktop/scraper-main 2 copy/./reports/courses_skillup_20260414.txt
+[main] INFO utils.CourseCache - Cache file not found. Starting with empty cache
+[main] INFO testcases.IdentifyCoursesTest - 
+========== STARTING PARTNER SCRAPE: skillup ==========
+[main] INFO testcases.IdentifyCoursesTest -   - Admin URL: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[main] INFO testcases.IdentifyCoursesTest -   - Cache File: course_cache_skillup.json
+[main] INFO testcases.IdentifyCoursesTest -   - Checkpoint File: scraper_checkpoint_skillup.json
+[main] INFO testcases.IdentifyCoursesTest - Processing 10 courses in 5 sublists of ~2 courses each
+
+[main] INFO testcases.IdentifyCoursesTest - ========== PROCESSING PARTNER skillup SUBLIST 1 (2 courses) ==========
+[main] INFO utils.CheckpointManager - No checkpoint file found. Starting fresh
+[main] INFO testcases.IdentifyCoursesTest - Waiting for 2 courses to complete...
+[pool-3-thread-1] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-1] Scraping: workplace-conduct-and-culture-first-course-1
+[pool-3-thread-2] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-2] Scraping: Machine Learning for Medical Data
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Navigating to Admin Courses page: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Navigating to Admin Courses page: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Current URL after navigation: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Searched for course: workplace-conduct-and-culture-first-course-1
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Checking page 1 for course: workplace-conduct-and-culture-first-course-1
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Number of course links found on page 1: 3
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Found course link: Title='Version 1', Href='https://www.coursera.org/teach/diversity-equity-inclusion-and-belonging-in-the-workplace/eHlN7NfqEfC03Q7okY62Sw/content/edit'
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Matched course using lenient word matching: 2 words matched out of 5
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Attempting to click course link using Actions...
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Current URL after navigation: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Searched for course: Machine Learning for Medical Data
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Checking page 1 for course: Machine Learning for Medical Data
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Number of course links found on page 1: 6
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Found course link: Title='Version 1', Href='https://www.coursera.org/teach/machine-learning-for-medical-data/0_6a66QsEfCO5gr__R2vew/content/edit'
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Attempting to click course link using Actions...
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Successfully navigated to teach page: https://www.coursera.org/teach/diversity-equity-inclusion-and-belonging-in-the-workplace/eHlN7NfqEfC03Q7okY62Sw/content/edit
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Navigating to Analytics page...
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Standard click failed, attempting JavaScript click...
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Clicked Analytics tab
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Successfully navigated to teach page: https://www.coursera.org/teach/machine-learning-for-medical-data/0_6a66QsEfCO5gr__R2vew/content/edit
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Navigating to Analytics page...
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Standard click failed, attempting JavaScript click...
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Clicked Analytics tab
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Navigating to Ratings section...
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Clicked Ratings section using standard click
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Changing branch merger to Live Version...
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Clicked branch merger dropdown.
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Dropdown options are visible.
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Extracted version number: Version 1
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Clicked Live version option using standard click.
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Successfully changed branch merger to Live Version.
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Scraped rating: 5
+[pool-3-thread-1] ERROR pages.AdminCoursesPage - Failed to navigate to Analytics: Expected condition failed: waiting for url to contain "analytics". Current url: "https://www.coursera.org/teach/diversity-equity-inclusion-and-belonging-in-the-workplace/eHlN7NfqEfC03Q7okY62Sw/content/edit" (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.4.1', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.56, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: /var/folders/kp/p2pl3nl1007...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60657}, goog:processID: 62629, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60657/devtoo..., se:cdpVersion: 147.0.7727.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f72746cff7e8424af2c771f562209c9
+[pool-3-thread-1] ERROR pages.AdminCoursesPage - Failed to navigate to Analytics and scrape rating: Analytics navigation failed
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Screenshot saved as analytics-scrape-error-screenshot.png
+[pool-3-thread-2] INFO pages.AdminCoursesPage - No 'Next' button found. Assuming this is the last page.
+[pool-3-thread-2] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-2] ✓ Completed: Machine Learning for Medical Data
+[pool-3-thread-2] INFO utils.PerformanceMetrics - METRIC | skillup_course_Machine Learning for Medical Data | 111868 ms
+[pool-3-thread-1] INFO pages.AdminCoursesPage - No 'Next' button found. Assuming this is the last page.
+[pool-3-thread-1] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-1] ✓ Completed: workplace-conduct-and-culture-first-course-1
+[pool-3-thread-1] INFO utils.PerformanceMetrics - METRIC | skillup_course_workplace-conduct-and-culture-first-course-1 | 112995 ms
+[main] INFO testcases.IdentifyCoursesTest - Sublist 1 Results Summary:
+[main] INFO testcases.IdentifyCoursesTest -   - Completed: 2 courses
+[main] INFO testcases.IdentifyCoursesTest -   - Failed: 0 courses
+[main] INFO testcases.IdentifyCoursesTest -   - Success Rate: {:.1f}%
+[main] INFO testcases.IdentifyCoursesTest -   - Time: 112 seconds
+[main] INFO testcases.IdentifyCoursesTest - Exporting 2 courses to: coursera_course_ratings_skillup_sublist_1_20260414.xlsx
+[main] INFO pages.AdminCoursesPage - Exporting 2 courses to Excel: coursera_course_ratings_skillup_sublist_1_20260414.xlsx
+[main] INFO utils.ExcelExporter - Excel file written: 2 rows in 274ms to coursera_course_ratings_skillup_sublist_1_20260414.xlsx
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_excel_export_1 | 276 ms
+[main] INFO testcases.IdentifyCoursesTest - ✓ EXPORTED: coursera_course_ratings_skillup_sublist_1_20260414.xlsx
+[main] INFO utils.CheckpointManager - Checkpoint saved: batch=sublist_1, processed=1, results=2
+[main] INFO testcases.IdentifyCoursesTest - ✓ CHECKPOINT SAVED: partner=skillup, sublist_1 with 2 courses
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_sublist_1 | 113275 ms
+[main] INFO testcases.IdentifyCoursesTest - ========== PARTNER skillup SUBLIST 1 COMPLETE ==========
+
+[main] INFO testcases.IdentifyCoursesTest - ========== PROCESSING PARTNER skillup SUBLIST 2 (2 courses) ==========
+[main] INFO utils.CheckpointManager - Checkpoint loaded: batch=sublist_1, processed=1, results=2
+[main] INFO testcases.IdentifyCoursesTest - Waiting for 2 courses to complete...
+[pool-3-thread-4] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-4] Scraping: The Business Intelligence (BI) Analyst Capstone Project
+[pool-3-thread-3] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-3] Scraping: Overview: Six Sigma and the Organization
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Navigating to Admin Courses page: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Navigating to Admin Courses page: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Current URL after navigation: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Searched for course: The Business Intelligence (BI) Analyst Capstone Project
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Checking page 1 for course: The Business Intelligence (BI) Analyst Capstone Project
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Number of course links found on page 1: 8
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Found course link: Title='Version 2 - ACE', Href='https://www.coursera.org/teach/bi-analyst-capstone-project/authoringBranch~FzYgk1SYEe-nXw4I7PxBow/content/edit'
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Matched course using lenient word matching: 3 words matched out of 5
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Attempting to click course link using Actions...
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Current URL after navigation: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Searched for course: Overview: Six Sigma and the Organization
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Successfully navigated to teach page: https://www.coursera.org/teach/bi-analyst-capstone-project/authoringBranch~FzYgk1SYEe-nXw4I7PxBow/content/edit
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Navigating to Analytics page...
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Checking page 1 for course: Overview: Six Sigma and the Organization
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Number of course links found on page 1: 7
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Found course link: Title='Version 1', Href='https://www.coursera.org/teach/overview-six-sigma-and-the-organization/0h7Q-4nYEe6vBxKbb1oMUw/content/edit'
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Standard click failed, attempting JavaScript click...
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Clicked Analytics tab
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Navigating to Ratings section...
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Attempting to click course link using Actions...
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Clicked Ratings section using standard click
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Changing branch merger to Live Version...
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Clicked branch merger dropdown.
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Dropdown options are visible.
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Extracted version number: Version 2 - ACE
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Clicked Live version option using standard click.
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Successfully navigated to teach page: https://www.coursera.org/teach/overview-six-sigma-and-the-organization/0h7Q-4nYEe6vBxKbb1oMUw/content/edit
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Navigating to Analytics page...
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Standard click failed, attempting JavaScript click...
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Clicked Analytics tab
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Navigating to Ratings section...
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Clicked Ratings section using standard click
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Changing branch merger to Live Version...
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Clicked branch merger dropdown.
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Dropdown options are visible.
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Extracted version number: Version 1
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Clicked Live version option using standard click.
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Successfully changed branch merger to Live Version.
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Scraped rating: 4.7
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Successfully changed branch merger to Live Version.
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Scraped rating: 4.7
+[pool-3-thread-4] INFO pages.AdminCoursesPage - No 'Next' button found. Assuming this is the last page.
+[pool-3-thread-4] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-4] ✓ Completed: The Business Intelligence (BI) Analyst Capstone Project
+[pool-3-thread-4] INFO utils.PerformanceMetrics - METRIC | skillup_course_The Business Intelligence (BI) Analyst Capstone Project | 122822 ms
+[pool-3-thread-3] INFO pages.AdminCoursesPage - No 'Next' button found. Assuming this is the last page.
+[pool-3-thread-3] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-3] ✓ Completed: Overview: Six Sigma and the Organization
+[pool-3-thread-3] INFO utils.PerformanceMetrics - METRIC | skillup_course_Overview: Six Sigma and the Organization | 129500 ms
+[main] INFO testcases.IdentifyCoursesTest - Sublist 2 Results Summary:
+[main] INFO testcases.IdentifyCoursesTest -   - Completed: 2 courses
+[main] INFO testcases.IdentifyCoursesTest -   - Failed: 0 courses
+[main] INFO testcases.IdentifyCoursesTest -   - Success Rate: {:.1f}%
+[main] INFO testcases.IdentifyCoursesTest -   - Time: 129 seconds
+[main] INFO testcases.IdentifyCoursesTest - Exporting 2 courses to: coursera_course_ratings_skillup_sublist_2_20260414.xlsx
+[main] INFO pages.AdminCoursesPage - Exporting 2 courses to Excel: coursera_course_ratings_skillup_sublist_2_20260414.xlsx
+[main] INFO utils.ExcelExporter - Excel file written: 2 rows in 16ms to coursera_course_ratings_skillup_sublist_2_20260414.xlsx
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_excel_export_2 | 19 ms
+[main] INFO testcases.IdentifyCoursesTest - ✓ EXPORTED: coursera_course_ratings_skillup_sublist_2_20260414.xlsx
+[main] INFO utils.CheckpointManager - Checkpoint saved: batch=sublist_2, processed=2, results=2
+[main] INFO testcases.IdentifyCoursesTest - ✓ CHECKPOINT SAVED: partner=skillup, sublist_2 with 2 courses
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_sublist_2 | 129524 ms
+[main] INFO testcases.IdentifyCoursesTest - ========== PARTNER skillup SUBLIST 2 COMPLETE ==========
+
+[main] INFO testcases.IdentifyCoursesTest - ========== PROCESSING PARTNER skillup SUBLIST 3 (2 courses) ==========
+[main] INFO utils.CheckpointManager - Checkpoint loaded: batch=sublist_2, processed=2, results=2
+[pool-3-thread-2] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-2] Scraping: Product Management: Building AI-Powered Products
+[main] INFO testcases.IdentifyCoursesTest - Waiting for 2 courses to complete...
+[pool-3-thread-1] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-1] Scraping: S.A.F.E. Mortgage Licensing Act – Regulation G (Federal)
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Navigating to Admin Courses page: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Navigating to Admin Courses page: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Current URL after navigation: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Searched for course: Product Management: Building AI-Powered Products
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Current URL after navigation: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Searched for course: S.A.F.E. Mortgage Licensing Act – Regulation G (Federal)
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Checking page 1 for course: Product Management: Building AI-Powered Products
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Number of course links found on page 1: 8
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Found course link: Title='CMO_M1 Optimization', Href='https://www.coursera.org/teach/product-management-building-ai-powered-products/authoringBranch~uFyh9QJ6EfG75RKUFV6d3w/content/edit'
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Checking page 1 for course: S.A.F.E. Mortgage Licensing Act – Regulation G (Federal)
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Number of course links found on page 1: 1
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Found course link: Title='Version 1', Href='https://www.coursera.org/teach/servicemembers-civil-relief-act-and-military-lending-act/OdKfWwpyEfGiDQr_2-l8VQ/content/edit'
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Attempting to click course link using Actions...
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Successfully navigated to teach page: https://www.coursera.org/teach/product-management-building-ai-powered-products/authoringBranch~uFyh9QJ6EfG75RKUFV6d3w/content/edit
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Navigating to Analytics page...
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Clicked Analytics tab
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Navigating to Ratings section...
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Clicked Ratings section using standard click
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Changing branch merger to Live Version...
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Clicked branch merger dropdown.
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Dropdown options are visible.
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Extracted version number: CMO_M1 Optimization
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Clicked Live version option using standard click.
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Successfully changed branch merger to Live Version.
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Scraped rating: 5
+[pool-3-thread-1] INFO pages.AdminCoursesPage - No 'Next' button found. Assuming this is the last page.
+[pool-3-thread-1] WARN pages.AdminCoursesPage - No versions matched for 'S.A.F.E. Mortgage Licensing Act – Regulation G (Federal)' after checking all pages.
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Screenshot saved as final-no-versions-screenshot.png
+[pool-3-thread-1] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-1] ✓ Completed: S.A.F.E. Mortgage Licensing Act – Regulation G (Federal)
+[pool-3-thread-1] INFO utils.PerformanceMetrics - METRIC | skillup_course_S.A.F.E. Mortgage Licensing Act – Regulation G (Federal) | 55096 ms
+[pool-3-thread-2] INFO pages.AdminCoursesPage - No 'Next' button found. Assuming this is the last page.
+[pool-3-thread-2] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-2] ✓ Completed: Product Management: Building AI-Powered Products
+[pool-3-thread-2] INFO utils.PerformanceMetrics - METRIC | skillup_course_Product Management: Building AI-Powered Products | 84498 ms
+[main] INFO testcases.IdentifyCoursesTest - Sublist 3 Results Summary:
+[main] INFO testcases.IdentifyCoursesTest -   - Completed: 1 courses
+[main] INFO testcases.IdentifyCoursesTest -   - Failed: 0 courses
+[main] INFO testcases.IdentifyCoursesTest -   - Success Rate: {:.1f}%
+[main] INFO testcases.IdentifyCoursesTest -   - Time: 84 seconds
+[main] INFO testcases.IdentifyCoursesTest - Exporting 1 courses to: coursera_course_ratings_skillup_sublist_3_20260414.xlsx
+[main] INFO pages.AdminCoursesPage - Exporting 1 courses to Excel: coursera_course_ratings_skillup_sublist_3_20260414.xlsx
+[main] INFO utils.ExcelExporter - Excel file written: 1 rows in 12ms to coursera_course_ratings_skillup_sublist_3_20260414.xlsx
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_excel_export_3 | 14 ms
+[main] INFO testcases.IdentifyCoursesTest - ✓ EXPORTED: coursera_course_ratings_skillup_sublist_3_20260414.xlsx
+[main] INFO utils.CheckpointManager - Checkpoint saved: batch=sublist_3, processed=3, results=1
+[main] INFO testcases.IdentifyCoursesTest - ✓ CHECKPOINT SAVED: partner=skillup, sublist_3 with 1 courses
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_sublist_3 | 84514 ms
+[main] INFO testcases.IdentifyCoursesTest - ========== PARTNER skillup SUBLIST 3 COMPLETE ==========
+
+[main] INFO testcases.IdentifyCoursesTest - ========== PROCESSING PARTNER skillup SUBLIST 4 (2 courses) ==========
+[main] INFO utils.CheckpointManager - Checkpoint loaded: batch=sublist_3, processed=3, results=1
+[main] INFO testcases.IdentifyCoursesTest - Waiting for 2 courses to complete...
+[pool-3-thread-4] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-4] Scraping: Get Started with Presentation Applications: PowerPoint
+[pool-3-thread-3] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-3] Scraping: Business Analysis: Preparation Exam for ECBA Certification
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Navigating to Admin Courses page: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Navigating to Admin Courses page: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Current URL after navigation: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Searched for course: Business Analysis: Preparation Exam for ECBA Certification
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Current URL after navigation: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Searched for course: Get Started with Presentation Applications: PowerPoint
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Checking page 1 for course: Business Analysis: Preparation Exam for ECBA Certification
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Number of course links found on page 1: 6
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Found course link: Title='Version 1', Href='https://www.coursera.org/teach/business-analysis-preparation-exam-for-ecba-certification/2Bmux6DTEe-3hg4qgegfwQ/content/edit'
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Attempting to click course link using Actions...
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Checking page 1 for course: Get Started with Presentation Applications: PowerPoint
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Number of course links found on page 1: 1
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Found course link: Title='Version 2', Href='https://www.coursera.org/teach/get-started-with-presentation-apps-powerpoint/authoringBranch~dw_Nr2z_EfCWGhIbMSBS5Q/content/edit'
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Matched course using lenient word matching: 4 words matched out of 5
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Attempting to click course link using Actions...
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Successfully navigated to teach page: https://www.coursera.org/teach/business-analysis-preparation-exam-for-ecba-certification/2Bmux6DTEe-3hg4qgegfwQ/content/edit
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Navigating to Analytics page...
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Successfully navigated to teach page: https://www.coursera.org/teach/get-started-with-presentation-apps-powerpoint/authoringBranch~dw_Nr2z_EfCWGhIbMSBS5Q/content/edit
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Navigating to Analytics page...
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Clicked Analytics tab
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Navigating to Ratings section...
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Clicked Ratings section using standard click
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Changing branch merger to Live Version...
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Clicked branch merger dropdown.
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Dropdown options are visible.
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Clicked Analytics tab
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Navigating to Ratings section...
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Extracted version number: Version 1
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Clicked Live version option using standard click.
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Clicked Ratings section using standard click
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Changing branch merger to Live Version...
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Clicked branch merger dropdown.
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Dropdown options are visible.
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Extracted version number: Version 2
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Clicked Live version option using standard click.
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Successfully changed branch merger to Live Version.
+[pool-3-thread-3] INFO pages.AdminCoursesPage - Scraped rating: 4.8
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Successfully changed branch merger to Live Version.
+[pool-3-thread-4] INFO pages.AdminCoursesPage - Scraped rating: 4.8
+[pool-3-thread-3] INFO pages.AdminCoursesPage - No 'Next' button found. Assuming this is the last page.
+[pool-3-thread-3] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-3] ✓ Completed: Business Analysis: Preparation Exam for ECBA Certification
+[pool-3-thread-3] INFO utils.PerformanceMetrics - METRIC | skillup_course_Business Analysis: Preparation Exam for ECBA Certification | 80095 ms
+[pool-3-thread-4] INFO pages.AdminCoursesPage - No 'Next' button found. Assuming this is the last page.
+[pool-3-thread-4] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-4] ✓ Completed: Get Started with Presentation Applications: PowerPoint
+[pool-3-thread-4] INFO utils.PerformanceMetrics - METRIC | skillup_course_Get Started with Presentation Applications: PowerPoint | 81695 ms
+[main] INFO testcases.IdentifyCoursesTest - Sublist 4 Results Summary:
+[main] INFO testcases.IdentifyCoursesTest -   - Completed: 2 courses
+[main] INFO testcases.IdentifyCoursesTest -   - Failed: 0 courses
+[main] INFO testcases.IdentifyCoursesTest -   - Success Rate: {:.1f}%
+[main] INFO testcases.IdentifyCoursesTest -   - Time: 81 seconds
+[main] INFO testcases.IdentifyCoursesTest - Exporting 2 courses to: coursera_course_ratings_skillup_sublist_4_20260414.xlsx
+[main] INFO pages.AdminCoursesPage - Exporting 2 courses to Excel: coursera_course_ratings_skillup_sublist_4_20260414.xlsx
+[main] INFO utils.ExcelExporter - Excel file written: 2 rows in 12ms to coursera_course_ratings_skillup_sublist_4_20260414.xlsx
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_excel_export_4 | 14 ms
+[main] INFO testcases.IdentifyCoursesTest - ✓ EXPORTED: coursera_course_ratings_skillup_sublist_4_20260414.xlsx
+[main] INFO utils.CheckpointManager - Checkpoint saved: batch=sublist_4, processed=4, results=2
+[main] INFO testcases.IdentifyCoursesTest - ✓ CHECKPOINT SAVED: partner=skillup, sublist_4 with 2 courses
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_sublist_4 | 81711 ms
+[main] INFO testcases.IdentifyCoursesTest - ========== PARTNER skillup SUBLIST 4 COMPLETE ==========
+
+[main] INFO testcases.IdentifyCoursesTest - ========== PROCESSING PARTNER skillup SUBLIST 5 (2 courses) ==========
+[main] INFO utils.CheckpointManager - Checkpoint loaded: batch=sublist_4, processed=4, results=2
+[main] INFO testcases.IdentifyCoursesTest - Waiting for 2 courses to complete...
+[pool-3-thread-1] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-1] Scraping: AI Ethics for the Workplace
+[pool-3-thread-2] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-2] Scraping: Product Management: Foundations & Stakeholder Collaboration
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Navigating to Admin Courses page: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Navigating to Admin Courses page: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Current URL after navigation: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Searched for course: AI Ethics for the Workplace
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Current URL after navigation: https://www.coursera.org/admin/skillup-ed-tech/home/courses
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Searched for course: Product Management: Foundations & Stakeholder Collaboration
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Checking page 1 for course: AI Ethics for the Workplace
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Number of course links found on page 1: 8
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Found course link: Title='Version 1', Href='https://www.coursera.org/teach/ai-ethics-for-the-workplace/2H3X50QlEfC0sQr_9lgCRw/content/edit'
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Attempting to click course link using Actions...
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Checking page 1 for course: Product Management: Foundations & Stakeholder Collaboration
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Number of course links found on page 1: 2
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Found course link: Title='Version 1', Href='https://www.coursera.org/teach/product-management-foundations-and-stakeholder-collaboration/2N7ltmIxEe62wwrYx-2qTQ/content/edit'
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Matched course using lenient word matching: 5 words matched out of 5
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Attempting to click course link using Actions...
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Successfully navigated to teach page: https://www.coursera.org/teach/ai-ethics-for-the-workplace/2H3X50QlEfC0sQr_9lgCRw/content/edit
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Navigating to Analytics page...
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Clicked Analytics tab
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Navigating to Ratings section...
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Clicked Ratings section using standard click
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Changing branch merger to Live Version...
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Successfully navigated to teach page: https://www.coursera.org/teach/product-management-foundations-and-stakeholder-collaboration/2N7ltmIxEe62wwrYx-2qTQ/content/edit
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Navigating to Analytics page...
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Clicked branch merger dropdown.
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Dropdown options are visible.
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Extracted version number: Version 1
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Clicked Live version option using standard click.
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Clicked Analytics tab
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Navigating to Ratings section...
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Clicked Ratings section using standard click
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Changing branch merger to Live Version...
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Clicked branch merger dropdown.
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Dropdown options are visible.
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Extracted version number: Version 1
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Clicked Live version option using standard click.
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Successfully changed branch merger to Live Version.
+[pool-3-thread-1] INFO pages.AdminCoursesPage - Scraped rating: 5
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Successfully changed branch merger to Live Version.
+[pool-3-thread-2] INFO pages.AdminCoursesPage - Scraped rating: 4.6
+[pool-3-thread-1] INFO pages.AdminCoursesPage - No 'Next' button found. Assuming this is the last page.
+[pool-3-thread-1] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-1] ✓ Completed: AI Ethics for the Workplace
+[pool-3-thread-1] INFO utils.PerformanceMetrics - METRIC | skillup_course_AI Ethics for the Workplace | 80643 ms
+[pool-3-thread-2] INFO pages.AdminCoursesPage - No 'Next' button found. Assuming this is the last page.
+[pool-3-thread-2] INFO testcases.IdentifyCoursesTest -   [THREAD-pool-3-thread-2] ✓ Completed: Product Management: Foundations & Stakeholder Collaboration
+[pool-3-thread-2] INFO utils.PerformanceMetrics - METRIC | skillup_course_Product Management: Foundations & Stakeholder Collaboration | 82547 ms
+[main] INFO testcases.IdentifyCoursesTest - Sublist 5 Results Summary:
+[main] INFO testcases.IdentifyCoursesTest -   - Completed: 2 courses
+[main] INFO testcases.IdentifyCoursesTest -   - Failed: 0 courses
+[main] INFO testcases.IdentifyCoursesTest -   - Success Rate: {:.1f}%
+[main] INFO testcases.IdentifyCoursesTest -   - Time: 82 seconds
+[main] INFO testcases.IdentifyCoursesTest - Exporting 2 courses to: coursera_course_ratings_skillup_sublist_5_20260414.xlsx
+[main] INFO pages.AdminCoursesPage - Exporting 2 courses to Excel: coursera_course_ratings_skillup_sublist_5_20260414.xlsx
+[main] INFO utils.ExcelExporter - Excel file written: 2 rows in 22ms to coursera_course_ratings_skillup_sublist_5_20260414.xlsx
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_excel_export_5 | 23 ms
+[main] INFO testcases.IdentifyCoursesTest - ✓ EXPORTED: coursera_course_ratings_skillup_sublist_5_20260414.xlsx
+[main] INFO utils.CheckpointManager - Checkpoint saved: batch=sublist_5, processed=5, results=2
+[main] INFO testcases.IdentifyCoursesTest - ✓ CHECKPOINT SAVED: partner=skillup, sublist_5 with 2 courses
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_sublist_5 | 82574 ms
+[main] INFO testcases.IdentifyCoursesTest - ========== PARTNER skillup SUBLIST 5 COMPLETE ==========
+
+[main] INFO utils.CheckpointManager - Checkpoint deleted
+[main] INFO testcases.IdentifyCoursesTest - ✓ Checkpoint deleted for partner skillup (scrape completed successfully)
+
+[main] INFO testcases.IdentifyCoursesTest - Shutting down executor service...
+[main] INFO testcases.IdentifyCoursesTest - ✓ Executor service shutdown complete
+[main] INFO utils.PerformanceMetrics - METRIC | total_execution | 516967 ms
+[main] INFO testcases.IdentifyCoursesTest - ========== TEST EXECUTION COMPLETE ==========
+[main] INFO testcases.IdentifyCoursesTest - Total Execution Time: 516967 ms (8 minutes and 36 seconds)
+[main] INFO utils.PerformanceMetrics - ===== PERFORMANCE SUMMARY =====
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_course_Machine Learning for Medical Data | 111868 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_course_workplace-conduct-and-culture-first-course-1 | 112995 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_excel_export_1 | 276 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_sublist_1 | 113275 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_course_The Business Intelligence (BI) Analyst Capstone Project | 122822 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_course_Overview: Six Sigma and the Organization | 129500 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_excel_export_2 | 19 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_sublist_2 | 129524 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_course_S.A.F.E. Mortgage Licensing Act – Regulation G (Federal) | 55096 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_course_Product Management: Building AI-Powered Products | 84498 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_excel_export_3 | 14 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_sublist_3 | 84514 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_course_Business Analysis: Preparation Exam for ECBA Certification | 80095 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_course_Get Started with Presentation Applications: PowerPoint | 81695 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_excel_export_4 | 14 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_sublist_4 | 81711 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_course_AI Ethics for the Workplace | 80643 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_course_Product Management: Foundations & Stakeholder Collaboration | 82547 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_excel_export_5 | 23 ms
+[main] INFO utils.PerformanceMetrics - METRIC | skillup_sublist_5 | 82574 ms
+[main] INFO utils.PerformanceMetrics - METRIC | total_execution | 516967 ms
+[main] INFO testcases.IdentifyCoursesTest - ========== PERFORMANCE METRICS END ==========
+
+]]></system-err>
+  </testcase>
+</testsuite>
