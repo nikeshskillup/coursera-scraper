@@ -86,4 +86,8 @@ public class AppConfig {
     public static String getExportDirectory() {
         return properties.getProperty("export.output_directory", "./reports");
     }
+
+    public static String getCourseListDirectory() {
+        return properties.getProperty("scraper.course_list_directory", "course_lists");
+    }
 }

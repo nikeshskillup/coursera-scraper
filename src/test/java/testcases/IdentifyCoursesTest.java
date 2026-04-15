@@ -58,6 +58,7 @@ public class IdentifyCoursesTest extends BasePage {
 
     private static final DateTimeFormatter REPORT_DATE_FORMATTER =
         DateTimeFormatter.ofPattern("yyyyMMdd");
+    private static final int MIN_COURSES_PER_REPORT = 50;
     private static final java.util.List<String> PARTNERS = getPartnersFromSystemProperty();
 
     private static java.util.List<String> getPartnersFromSystemProperty() {
@@ -134,9 +135,9 @@ public class IdentifyCoursesTest extends BasePage {
         try {
             for (String partner : PARTNERS) {
                 String adminUrl = AppConfig.getAdminUrl(partner);
-                List<String> courseNames = getCourseListForPartner(partner, adminUrl);
+                List<String> courseNames = getCourseListForPartner(partner);
                 if (courseNames.isEmpty()) {
-                    logger.warn("Partner {} returned no courses from admin page. Falling back to hard-coded list.", partner);
+                    logger.warn("Partner {} returned no courses from file. Falling back to hard-coded list.", partner);
                     courseNames = fallbackCourseList;
                 }
                 logger.info("  - Total Courses: {}", courseNames.size());
@@ -153,6 +154,7 @@ public class IdentifyCoursesTest extends BasePage {
             // Split courses into sublists for batch processing
             int numSublists = batchSize;
             int sublistSize = (int) Math.ceil((double) courseNames.size() / numSublists);
+            List<CourseVersion> partnerCourseVersions = Collections.synchronizedList(new ArrayList<>());
 
             logger.info("Processing {} courses in {} sublists of ~{} courses each\n",
                 courseNames.size(), numSublists, sublistSize);
@@ -319,9 +321,8 @@ public class IdentifyCoursesTest extends BasePage {
                 logger.info("  - Time: {} seconds", sublistElapsedTime / 1000);
 
                 // ========== EXPORT TO EXCEL ==========
-                String excelFileName = buildExcelFilename(partner, sublistNumber);
-                
-                if (!allCourseVersions.isEmpty()) {
+                if (allCourseVersions.size() >= MIN_COURSES_PER_REPORT) {
+                    String excelFileName = buildExcelFilename(partner, sublistNumber);
                     logger.info("Exporting {} courses to: {}", 
                         allCourseVersions.size(), excelFileName);
                     performanceMetrics.startTimer(partner + "_excel_export_" + sublistNumber);
@@ -329,8 +330,11 @@ public class IdentifyCoursesTest extends BasePage {
                     performanceMetrics.endTimer(partner + "_excel_export_" + sublistNumber);
                     logger.info("✓ EXPORTED: {}", excelFileName);
                 } else {
-                    logger.warn("No results to export for partner {} sublist {}", partner, sublistNumber);
+                    logger.warn("Skipping export for partner {} sublist {} because it has only {} courses (< {})",
+                        partner, sublistNumber, allCourseVersions.size(), MIN_COURSES_PER_REPORT);
                 }
+
+                partnerCourseVersions.addAll(allCourseVersions);
 
                 // ========== SAVE CHECKPOINT ==========
                 if (checkpointEnabled) {
@@ -345,6 +349,17 @@ public class IdentifyCoursesTest extends BasePage {
 
                 performanceMetrics.endTimer(partner + "_sublist_" + sublistNumber);
                 logger.info("========== PARTNER {} SUBLIST {} COMPLETE ==========\n", partner, sublistNumber);
+            }
+
+            if (partnerCourseVersions.size() >= MIN_COURSES_PER_REPORT) {
+                String partnerExcelFileName = buildPartnerExcelFilename(partner);
+                logger.info("Exporting final partner report with {} courses to {}",
+                    partnerCourseVersions.size(), partnerExcelFileName);
+                adminCoursesPage.writeToExcel(partnerExcelFileName, partnerCourseVersions);
+                logger.info("✓ EXPORTED partner report: {}", partnerExcelFileName);
+            } else {
+                logger.warn("Partner '{}' scraped only {} courses; final report requires at least {} courses. No partner report generated.",
+                    partner, partnerCourseVersions.size(), MIN_COURSES_PER_REPORT);
             }
 
             if (checkpointEnabled) {
@@ -420,12 +435,34 @@ public class IdentifyCoursesTest extends BasePage {
     // =========================================================================
 
     private String buildExcelFilename(String partner, int sublistNumber) {
-        return String.format(
+        Path exportDir = Paths.get(AppConfig.getExportDirectory());
+        try {
+            Files.createDirectories(exportDir);
+        } catch (IOException e) {
+            logger.warn("Could not create export directory {}: {}", exportDir.toAbsolutePath(), e.getMessage());
+        }
+
+        return exportDir.resolve(String.format(
             "coursera_course_ratings_%s_sublist_%d_%s.xlsx",
             partner,
             sublistNumber,
             LocalDate.now().format(REPORT_DATE_FORMATTER)
-        );
+        )).toString();
+    }
+
+    private String buildPartnerExcelFilename(String partner) {
+        Path exportDir = Paths.get(AppConfig.getExportDirectory());
+        try {
+            Files.createDirectories(exportDir);
+        } catch (IOException e) {
+            logger.warn("Could not create export directory {}: {}", exportDir.toAbsolutePath(), e.getMessage());
+        }
+
+        return exportDir.resolve(String.format(
+            "coursera_course_ratings_%s_all_%s.xlsx",
+            partner,
+            LocalDate.now().format(REPORT_DATE_FORMATTER)
+        )).toString();
     }
 
     private String buildCacheFilePath(String partner) {
@@ -444,15 +481,24 @@ public class IdentifyCoursesTest extends BasePage {
         return basePath + "_" + partner;
     }
 
-    private List<String> getCourseListForPartner(String partner, String adminUrl) {
-        logger.info("Fetching course list for partner '{}' from admin page: {}", partner, adminUrl);
+    private List<String> getCourseListForPartner(String partner) {
+        Path courseListPath = Paths.get(AppConfig.getCourseListDirectory(), "courses_" + partner + ".txt");
+        logger.info("Loading course list for partner '{}' from file: {}", partner, courseListPath.toAbsolutePath());
+
+        if (!Files.exists(courseListPath)) {
+            logger.warn("Course list file not found: {}", courseListPath.toAbsolutePath());
+            return Collections.emptyList();
+        }
+
         try {
-            adminCoursesPage.navigateToAdminCourses(adminUrl);
-            List<String> courseNames = adminCoursesPage.getCourseNamesFromAdminPage();
-            logger.info("Found {} courses for partner '{}'", courseNames.size(), partner);
+            List<String> courseNames = Files.lines(courseListPath)
+                .map(String::trim)
+                .filter(line -> !line.isEmpty())
+                .collect(Collectors.toList());
+            logger.info("Loaded {} course names for partner '{}' from file", courseNames.size(), partner);
             return courseNames;
-        } catch (Exception e) {
-            logger.warn("Unable to fetch partner course list for '{}': {}", partner, e.getMessage());
+        } catch (IOException e) {
+            logger.warn("Unable to read course list file for '{}': {}", partner, e.getMessage());
             return Collections.emptyList();
         }
     }

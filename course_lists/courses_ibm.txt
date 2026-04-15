@@ -1,0 +1,197 @@
+What is Data Science?
+SQL for Data Science with R
+Python for Data Science AI & Development
+Tools for Data Science
+Databases and SQL for Data Science with Python
+Data Analysis with Python
+Software Testing Deployment and Maintenance Strategies
+UX Research and Information Architecture
+Advanced RAG with Vector Databases and Retrievers
+Data Science Methodology
+Machine Learning with Python
+Introduction to Data Analytics
+Data Visualization with Python
+Python Project for Data Science
+Excel Basics for Data Analysis
+Applied Data Science Capstone
+Introduction to Cybersecurity Tools & Cyberattacks
+Introduction to Cloud Computing
+Data Visualization and Dashboards with Excel and Cognos
+Introduction to Artificial Intelligence (AI)
+Introduction to Data Engineering
+Operating Systems: Overview Administration and Security
+Introduction to Web Development with HTML CSS JavaScript
+IBM Data Analyst Capstone Project
+Getting Started with Git and GitHub
+Cybersecurity Compliance Framework Standards & Regulations
+Developing AI Applications with Python and Flask
+Hands-on Introduction to Linux Commands and Shell Scripting
+Introduction to Software Engineering
+Introduction to DevOps
+Computer Networks and Network Security
+Penetration Testing Threat Hunting and Cryptography
+Introduction to Containers w/ Docker Kubernetes & OpenShift
+Generative AI: Introduction and Applications
+Incident Response and Digital Forensics
+Introduction to Agile Development and Scrum
+Exploratory Data Analysis for Machine Learning
+Building AI Powered Chatbots Without Programming
+Cybersecurity Case Studies and Capstone Project
+Introduction to Deep Learning & Neural Networks with Keras
+Generative AI: Prompt Engineering Basics
+Introduction to Neural Networks and PyTorch
+Developing Front-End Apps with React
+Introduction to Relational Databases (RDBMS)
+Python Project for Data Engineering
+Introduction to Computer Vision and Image Processing
+Application Development using Microservices and Serverless
+Cybersecurity Assessment: CompTIA Security+ & CYSA+
+ETL and Data Pipelines with Shell Airflow and Kafka
+Developing Back-End Apps with Node.js and Express
+Introduction to Project Management
+Django Application Development with SQL and Databases
+Deep Learning with Keras and Tensorflow
+Introduction to Big Data with Spark and Hadoop
+Introduction to Hardware and Operating Systems
+Relational Database Administration (DBA)
+Supervised Machine Learning: Regression
+AI Capstone Project with Deep Learning
+Data Warehouse Fundamentals
+Introduction to NoSQL Databases
+Introduction to R Programming for Data Science
+Introduction to Technical Support
+Full Stack Application Development Capstone Project
+Product Management: An Introduction
+Supervised Machine Learning: Classification
+Full Stack Software Developer Assessment
+Introduction to Cybersecurity Essentials
+Scalable Machine Learning on Big Data using Apache Spark
+Unsupervised Machine Learning
+Deep Learning and Reinforcement Learning
+Introduction to Software Programming and Databases
+Data Engineering Capstone Project
+Generative AI: Elevate Your Data Science Career
+Introduction to Networking and Storage
+Continuous Integration and Continuous Delivery (CI/CD)
+Statistics for Data Science with Python
+Introduction to Test and Behavior Driven Development
+Introduction to Cybersecurity Careers
+Data Scientist Career Guide and Interview Preparation
+Application Security for Developers and DevOps Professionals
+Assessment for Data Analysis and Visualization Foundations
+SQL: A Practical Introduction for Querying Databases
+Data Analysis with R
+Generative AI: Enhance your Data Analytics Career
+DevOps Capstone Project
+Machine Learning with Apache Spark
+Software Developer Career Guide and Interview Preparation
+Generative AI: Elevate your Software Development Career
+Machine Learning Capstone
+Data Analyst Career Guide and Interview Preparation
+Data Visualization with R
+Collaborate Effectively for Professional Success
+Building Generative AI-Powered Applications with Python
+Information Technology (IT) Fundamentals for Everyone
+Getting Started with Front-End and Web Development
+Specialized Models: Time Series and Survival Analysis
+Project Management Capstone
+Designing User Interfaces and Experiences (UI/UX)
+Technical Support (IT) Case Studies and Capstone
+Monitoring and Observability for Development and DevOps
+Developing Interpersonal Skills
+Generative AI: Foundation Models and Platforms
+Data Science with R - Capstone Project
+Business Intelligence (BI) Essentials
+Present with Purpose: Create/Deliver Effective Presentations
+Generative AI and LLMs: Architecture and Data Preparation
+Solving Problems with Creative and Critical Thinking
+GenAI for Executives & Business Leaders: An Introduction
+People and Soft Skills Assessment
+Introduction to Business Analysis
+Core 1: Hardware and Network Troubleshooting
+Gen AI Foundational Models for NLP & Language Understanding
+Delivering Quality Work with Agility
+Artificial Intelligence (AI) Education for Teachers
+Generative AI Language Modeling with Transformers
+Fundamentals of AI Agents Using RAG and LangChain
+JavaScript Programming Essentials
+Product Management: Capstone Project
+Generative AI Engineering and Fine-Tuning Transformers
+Generative AI: Impact Considerations and Ethical Issues
+Project: Generative AI Applications with RAG and LangChain
+BI Dashboards with IBM Cognos Analytics and Google Looker
+Get Started with Cloud Native DevOps Agile and NoSQL
+Practice Exam for CompTIA ITF+ Certification
+Generative AI Advance Fine-Tuning for LLMs
+Machine Learning Introduction for Everyone
+Generative AI: Business Transformation and Career Growth
+Deep Learning with PyTorch
+Project Management Job Search Resume and Interview Prep
+Developing Websites and Front-Ends with Bootstrap
+Statistical Analysis Fundamentals using Excel
+Generative AI: Elevate your Data Engineering Career
+Back-end Application Development Capstone Project
+Intermediate Web and Front-End Development
+Node.js & MongoDB: Developing Back-end Database Applications
+Cybersecurity Architecture
+Data Engineering Career Guide and Interview Preparation
+Tech Support Career Guide and Interview Preparation
+Generative AI: Boost Your Cybersecurity Career
+Core 2: OS Software Security and Operational Procedures
+Front-End Development Capstone Project
+Flutter and Dart: Developing iOS Android and Mobile Apps
+Database Essentials and Vulnerabilities
+Practice Exams for CompTIA A+ Certification: Core 1 & Core 2
+DataOps Methodology
+Introduction to Mobile App Development
+Introduction to Program Management
+Cybersecurity Job Search Resume and Interview Prep
+GenAI for Execs & Business Leaders: Integration Strategy
+Introduction to the Threat Intelligence Lifecycle
+JavaScript Full Stack Capstone Project
+Data Warehousing Capstone Project
+GenAI for Execs & Business Leaders: Formulate Your Use Case
+Java Programming for Beginners
+Program Manager Capstone
+Capstone Project: Applying Business Analysis Skills
+Develop Generative AI Applications: Get Started
+Object Oriented Programming in Java
+JavaScript Back-end Capstone Project
+Statistics and Clustering in Python
+Cloud Native Microservices Containers DevOps and Agile
+Vector Databases: An Introduction with Chroma DB
+Build RAG Applications: Get Started
+Encryption and Cryptography Essentials
+Generative AI: Accelerate your Digital Marketing Career
+Introduction to Systems Analysis
+Java Development Capstone Project
+Introduction to Digital Marketing
+Build Multimodal Generative AI Applications
+Ethical Hacking with Kali Linux
+Generative AI: Empowering Modern Education
+Fundamentals of Building AI Agents
+Product Owner Capstone
+Introduction to UX/UI Design
+Vector Database Projects: AI Recommendation Systems
+Exploitation and Penetration Testing with Metasploit
+Relational Database Administration Capstone Project
+Agentic AI with LangChain and LangGraph
+Vector Databases for RAG: An Introduction
+Search Engine Optimization and Content Marketing
+Incident Response and Defense with OpenVAS
+Capstone Project: Applying UI/UX Design in the Real World
+Agentic AI with LangGraph CrewAI AutoGen and BeeAI
+Systems Analyst Capstone Project
+Introduction to HTML CSS & JavaScript
+Capstone Project: Digital Marketing and Growth Hacking
+Introduction to Systems Architecture
+Ethical Hacking Capstone Project: Breach Response AI
+Generative AI: Boost Your Sales Career
+GenAI for SEO: A Hands-On Playbook
+Systems and Solutions Architect Capstone Project
+Hybrid Cloud: Networking Storage and Data Management
+Build AI Agents using MCP
+ Cloud Operations Monitoring Security and Compliance
+Designing Hybrid and Multicloud Architectures
+RAG and Agentic AI Capstone Project
+Hybrid Cloud Capstone Project
