@@ -191,7 +191,7 @@ GenAI for SEO: A Hands-On Playbook
 Systems and Solutions Architect Capstone Project
 Hybrid Cloud: Networking Storage and Data Management
 Build AI Agents using MCP
- Cloud Operations Monitoring Security and Compliance
+Cloud Operations Monitoring Security and Compliance
 Designing Hybrid and Multicloud Architectures
 RAG and Agentic AI Capstone Project
 Hybrid Cloud Capstone Project
